@@ -11,9 +11,16 @@
 - [AWK](https://github.com/shreejnanesh/reference_nvhelper/blob/main/AWK/awk.txt).
 - [Grep](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Assignments/3Grep/Solutions.txt).
 - [Perl](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Perl/Reference.pl).
-
+- [Python]()
 ## Subversion (SVN) ##
 - Complete installation and usage refer [steps document](https://github.com/shreejnanesh/reference_nvhelper/tree/main/SubVersion).
+
+## Python Machine Learning ##
+- High level example on
+	- [Regression](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Python/ML/Regression)
+	- [Classification](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Python/ML/Classification)
+	- [Clustering](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Python/ML/Clustering)
+	- [Recomender](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Python/ML/RecomenderSystem)
 
 ### Dependencies ###
 * [Leran Sed](https://www.thegeekstuff.com/tag/linux-sed-command/).
