@@ -11,7 +11,7 @@
 - [AWK](https://github.com/shreejnanesh/reference_nvhelper/blob/main/AWK/awk.txt).
 - [Grep](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Assignments/3Grep/Solutions.txt).
 - [Perl](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Perl/Reference.pl).
-- [Python]()
+- [Python](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Python/ScriptsEx.py)
 ## Subversion (SVN) ##
 - Complete installation and usage refer [steps document](https://github.com/shreejnanesh/reference_nvhelper/tree/main/SubVersion).
 
