@@ -2,15 +2,18 @@
 
 > Reference documents with keynotes and cheetsheets
 
-- Linux Basics : Usage of Shell and different commands, [Folder 1](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Assignments/1LinuxBasics), [Folder 2](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Assignments/2LinuxBasics).
+## Linux Basics ##
+- Usage of Shell and different commands, [Folder 1](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Assignments/1LinuxBasics), [Folder 2](https://github.com/shreejnanesh/reference_nvhelper/tree/main/Assignments/2LinuxBasics).
 
-- Different scripting examples using,
-	- [SED](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Assignments/8sed/Lab/solution.txt).
-	- [AWK](https://github.com/shreejnanesh/reference_nvhelper/blob/main/AWK/awk.txt).
-	- [Grep](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Assignments/3Grep/Solutions.txt).
-	- [Perl](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Perl/Reference.pl).
+## Different scripting examples using ##
+	
+- [SED](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Assignments/8sed/Lab/solution.txt).
+- [AWK](https://github.com/shreejnanesh/reference_nvhelper/blob/main/AWK/awk.txt).
+- [Grep](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Assignments/3Grep/Solutions.txt).
+- [Perl](https://github.com/shreejnanesh/reference_nvhelper/blob/main/Perl/Reference.pl).
 
-- Subversion (SVN) : Complete installation and usage refer [steps document](https://github.com/shreejnanesh/reference_nvhelper/tree/main/SubVersion).
+## Subversion (SVN) ##
+- Complete installation and usage refer [steps document](https://github.com/shreejnanesh/reference_nvhelper/tree/main/SubVersion).
 
 ### Dependencies ###
 * [Leran Sed](https://www.thegeekstuff.com/tag/linux-sed-command/).
