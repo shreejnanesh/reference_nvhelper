@@ -16,7 +16,7 @@
 * [Leran Sed](https://www.thegeekstuff.com/tag/linux-sed-command/).
 * [Learn AWK](https://www.tecmint.com/category/awk-command/).
 * [Learn Python](https://www.w3schools.com/python/default.asp).
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo).
+* [Learn Markdown](https://guides.github.com/features/mastering-markdown/).
 
 > For example scripts go through individual folder.
 > Not all scripting style has examples.
