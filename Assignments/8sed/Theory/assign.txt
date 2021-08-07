@@ -1,0 +1,20 @@
+1Write a sed script to generate exit status
+
+	Success Status (0)
+	sed 's/\bdf\b/meow/g' random
+
+	Invalid Syntax/Command/regEX/invalid extension (1)
+	sed 's/df/meow' random #substitution syntax is invalid
+
+	File Errors - cannot open/ file not found (2)
+	#removing read permission for random (chmod -r random) and executing below command
+	sed 's/df/meow/g' random 
+
+	Errors like - IO error/processing error during runtime/SED aborting immediately (4)
+	#Serious error: using -f with command line option provides exit status 4
+	sed -f 's/df/meow/gi;dp' random
+
+2. Self study: Explore how to generate custom exit status
+	#command q or Q are used to send the custom exit status 
+	sed 's/\bdf\b/meow/g;q100' random #exits without processing more commands, with custom exit status
+	sed 's/\bdf\b/meow/g;Q120' random #exits without processing more commands also wont print anything in pattern buffer, with custom exit status 

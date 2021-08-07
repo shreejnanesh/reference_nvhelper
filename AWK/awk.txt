@@ -1,0 +1,117 @@
+#!/usr/bin/bash
+
+#The general syntax of awk is:
+	awk 'script' sample
+
+#The example below prints all the lines in the file /etc/hosts since no pattern is given.
+	awk '//{print}'/etc/hosts
+
+#I the example below, a pattern localhost has been given, so awk will match line having localhost in the /etc/hosts file.
+	awk '/localhost/{print}' /etc/hosts 
+
+	#prints everything from sample file
+	awk '{print $0}' sample
+
+	#prints 2nd and 3rd column in formatted way
+	awk '{printf("%5s %s\n",$2,$3)}' sample 
+#conditional statements
+	# > – greater than
+	# < – less than
+	# >= – greater than or equal to
+	# <= – less than or equal to
+	# == – equal to
+	# != – not equal to
+	# some_value ~ / pattern/ – true if some_value matches pattern
+	# some_value !~ / pattern/ – true if some_value does not match pattern
+
+	#if contents of 4th column is yes then print
+	awk '$4 =="yes"{print}' sample 
+
+#In Awk, compound expressions are built using the && referred to as (and) and the || referred to as (or) compound operators.
+	# ( first_expression ) && ( second_expression )
+	# ( first_expression ) || ( second_expression )
+
+	#if contents of 4th column is yes and contents of column 3 is greater than 5 then print
+	awk '$4 =="yes" && $3 >5{print}' sample 
+
+	#if contents of 4th column is no and contents of column 3 is greater than 5 (written as regular exp) then print
+	awk '$3 ~ /([6-9]|[0-9][0-9])/ && $4=="no"{print $0;}' sample
+
+	#contents of third column is greater than 5 then print as it is, if less then print * in that position
+	awk '$3 > 5 {print $0;} $3 <=5 {print $1,$2,"*",$4;}' sample
+	# OR |^| Same using Regular expression
+	awk '/ * ([6-9]|[0-9][0-9]) * /{print $0;} / * [0-5] * /{print $1,$2,"*",$4;}' sample
+
+#The next command helps you to prevent executing what I would refer to as time-wasting steps in a command execution.
+
+	#if column 3 is greater than 5 itll print that and goes to next record, only if it failts itll validate column 3 >= 5 
+	awk '$3 > 5 {print $0; next;} $3 <=5 {print $1,$2,"*",$4;}' sample
+
+
+#to take input from STDIN
+	#cat concatenates the data to the console that daa will be the input to awk and it will be processed as per the pattern
+	cat sample|awk '$3 > 5 {print $0; next;} $3 <=5 {print $1,$2,"*",$4;}'
+
+
+#1. Awk Variables
+	#egs:
+	#computer_name=”tecmint.com”
+	#first_name=$2
+	
+	#name is takes from first column , place is taken from second column and printed in formatted way
+	awk '{name = $1; Place = $2; printf("name = %s from = %s\n",name ,Place);}' sample 
+
+#2. Numeric Expressions
+	# In Awk, numeric expressions are built using the following numeric operators:
+	# * : multiplication operator
+	# + : addition operator
+	# / : division operator
+	# - : subtraction operator
+	# % : modulus operator
+	# ^ : exponentiation operator
+	# The syntax for a numeric expressions is:
+	# $ operand1 operator operand2
+
+#BEGIN{} function is executed before processing the file (ex in line no 110)
+#END{} function just prints after processing the file
+
+
+	#returns the number of delivered counts , yes count and no count 
+	awk '/yes/{count1=count1+1;} /no/{count2=count2+1;}  END{printf("Delivery->Yes Count =%2s No Count =%2s\n", count1, count2);} ' sample
+
+	#returns the number of delivered counts , yes count and no count with their delivered quantity
+	awk '/yes/{count1=count1+1; qnt1=qnt1+$3;} /no/{count2=count2+1; qnt2=qnt2+$3;}  END{printf("Delivery->Yes Count =%2s No Count =%2s\nQunatity delivered quantity =%2s not delivered quantity =%2s\n", count1, count2,qnt1,qnt2);} ' sample
+
+#3. Assignment Operators
+	# *= : multiplication assignment operator
+	# += : addition assignment operator
+	# /= : division assignment operator
+	# -= : subtraction assignment operator
+	# %= : modulus assignment operator
+	# ^= : exponentiation assignment operator
+	# The simplest syntax of an assignment operation in Awk is as follows:
+	# $ variable_name=variable_name operator operand
+
+	#returns the number of delivered counts , yes count and no count 
+	awk '/yes/{count1+=1;} /no/{count2+=1;}  END{printf("Delivery->Yes Count =%2s No Count =%2s\n", count1, count2);} ' sample
+
+#AWK built-in variables include:
+	# FILENAME : current input file name( do not change variable name)
+	# FR : number of the current input line (that is input line 1, 2, 3… so on, do not change variable name)
+	# NF : number of fields in current input line (do not change variable name)
+	# OFS : output field separator
+	# FS : input field separator(default value for FS is space and tab)
+	# ORS : output record separator
+	# RS : input record separator
+	# IGNORECASE : 0 by default (which is false), change it to 1 to enable.
+
+#option -F explicitely metions different field seperators, 
+	awk -F':|,| ' '{ print "Record:",NR,"has",NF,"fields" ; }' sample
+	#OR
+#BEGIN{} function is executed before processing the file
+	awk 'BEGIN{FS=":|,| |\\|"; RS="\n|;|&"} { print "Record:",NR,"has",NF,"fields" ; }' sample
+
+	#This will accept data with different field and line seperators and will print in a specific fashion
+	awk 'BEGIN{FS=":|,| |\\|"; RS="\n|;|&"; OFS=" "; ORS="\n";} { print $1,$2,$3,$4; }' sample
+
+

@@ -1,0 +1,7 @@
+name:dob:city:Phonenumber:hobbies
+asha:15-6-2000:Bangalore:1234567890:Tennis,Reading
+Balaji:07-07-2002:Chennai:2345678901:Reading,Drawing
+Chaitra:06-10-2001:3456789012:Chess,Cookingshree:15-08-1996:mang:123456789:code
+shree:15-08-1996:mang:123456789:code
+shree:15-08-1996:mang:123456789:code
+asd:as:da:sda:sdas d

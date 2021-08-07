@@ -1,0 +1,41 @@
+Write a Perl Program to generate report.  25 Marks 
+The details are given below: 
+- Use the file data.txt 
+   which have the following details 
+   Name of the instance, instance-Number, Area-per instance and 
+   power per instance. 
+- Generate output file in the registration_number.txt 
+   with the following details 
+
+1. Sort the file based on Area-per-Instance
+2. Count the total number of instances 
+3. Calculate the total area of all the instances 
+4. Calculate the total area of RAM 
+5. Calculate the average area of the instances
+6. Print the smallest instance based on area 
+7. Print the instance which uses more power
+8. Find what is the difference between highest and lower Power-Per-instance
+
+Write a Shell script to perform the following task  Marks 25 
+
+you can use grep, sed , awk any linux commands to complete the task   
+
+create a data file with the following features 
+1. Friend_name 
+2. Date-of-Birth
+3. City
+4. Phone Number 
+5. Hobbies 
+Note: use delimiter of your choice. 
+
+1. write a Shell script to 
+    1. update friends.txt by adding more records 
+    2. delete the "asha" details from the file 
+    3. count total number of records 
+    4. Find out is there any invalid record, if so print the record number 
+    5. create a mail id for your friends with the following format
+    Example: Assume your friend name is Asha, generate mail id 
+    as - asha@vlsicommunity.com
+
+
+    

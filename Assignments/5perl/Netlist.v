@@ -1,0 +1,16 @@
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX1 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX1 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX1 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX1 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));

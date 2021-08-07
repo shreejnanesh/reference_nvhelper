@@ -1,0 +1,16 @@
+name place quantity delivered
+shree mang 10 no
+jnan mud 5 no
+sanj mud 5 yes
+shil tro 10 no
+bil kur 6 yes
+mot mud 25 yes
+sanp:sti:0:no
+shree:mang:10:no
+jnan:mud:5:no
+sanj:mud:5:yes
+shil:tro:10:no
+bil:kur:6:yes
+mot:mud:25:yes
+sanp,sti,0,no;shree,mang,10,no;jnan,mud,5,no;sanj,mud,5,yes;shil,tro,10,no;bil,kur,6,yes;mot,mud,25,yes;blah:this:65:Yes
+sanp|sti|0|no&shree|mang|10|no&jnan|mud|5|no&sanj|mud|5|yes&shil|tro|10|no&bil|kur|6|yes&mot|mud|25|yes&sanp|sti|0|no

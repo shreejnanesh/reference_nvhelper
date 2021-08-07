@@ -1,0 +1,2420 @@
+Script started on 2021-03-15 10:26:01+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="40"]
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[00m$ echo $SHELL
+/bin/bash
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[00m$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/shree:@/tmp/.ICE-unix/1642,unix/shree:/tmp/.ICE-unix/1642
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LANGUAGE=en_IN:en
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+SSH_AGENT_PID=1573
+GTK_MODULES=gail:atk-bridge
+DBUS_STARTER_BUS_TYPE=session
+PWD=/home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl
+XDG_SESSION_DESKTOP=ubuntu
+LOGNAME=shree
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+HOME=/home/shree
+USERNAME=shree
+IM_CONFIG_PHASE=1
+LANG=en_IN
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=6003
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/1f05b6d5_d959_4d38_a000_5d21c658add6
+INVOCATION_ID=ff9e33daa657418d8074b13c8209d38b
+MANAGERPID=1355
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=shree
+GNOME_TERMINAL_SERVICE=:1.86
+SYSTEMC_HOME=/usr/local/systemc-2.3.3/
+DISPLAY=:0
+SHLVL=2
+QT_IM_MODULE=ibus
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=f95a0d2cb9ee9b05ff97c928604ee8a2
+LD_LIBRARY_PATH=/usr/local/systemc-2.3.3//lib-linux64
+XDG_RUNTIME_DIR=/run/user/1000
+JOURNAL_STREAM=8:35162
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+PATH=/usr/bin/g++:/usr/bin/g++:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=f95a0d2cb9ee9b05ff97c928604ee8a2
+_=/usr/bin/env
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[00m$ pwd
+/home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[00m$ cd /
+]0;shree@shree: /[01;32mshree@shree[00m:[01;34m/[00m$ ls /home
+[0m[01;34mshree[0m
+]0;shree@shree: /[01;32mshree@shree[00m:[01;34m/[00m$ cd /hp[Kom[K[K[K[K/home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl
+bash: cd: too many arguments
+]0;shree@shree: /[01;32mshree@shree[00m:[01;34m/[00m$ cd /home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl\ Two/Perl
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[00m$ mkdir Shree
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl[00m$ cd sh[K[KShree/
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ vi File[K[K[K[Kfile1
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;40r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[40;1H"file1" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                                     [3;1H~                                                                                                                                                     [4;1H~                                                                                                                                                     [5;1H~                                                                                                                                                     [6;1H~                                                                                                                                                     [7;1H~                                                                                                                                                     [8;1H~                                                                                                                                                     [9;1H~                                                                                                                                                     [10;1H~                                                                                                                                                     [11;1H~                                                                                                                                                     [12;1H~                                                                                                                                                     [13;1H~                                                                                                                                                     [14;1H~                                                                                                                                                     [15;1H~                                                                                                                                                     [16;1H~                                                                                                                                                     [17;1H~                                                                                                                                                     [18;1H~                                                                                                                                                     [19;1H~                                                                                                                                                     [20;1H~                                                                                                                                                     [21;1H~                                                                                                                                                     [22;1H~                                                                                                                                                     [23;1H~                                                                                                                                                     [24;1H~                                                                                                                                                     [25;1H~                                                                                                                                                     [26;1H~                                                                                                                                                     [27;1H~                                                                                                                                                     [28;1H~                                                                                                                                                     [29;1H~                                                                                                                                                     [30;1H~                                                                                                                                                     [31;1H~                                                                                                                                                     [32;1H~                                                                                                                                                     [33;1H~                                                                                                                                                     [34;1H~                                                                                                                                                     [35;1H~                                                                                                                                                     [36;1H~                                                                                                                                                     [37;1H~                                                                                                                                                     [38;1H~                                                                                                                                                     [39;1H~                                                                                                                                                     [m[40;133H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                                                     [3;1H~                                                                                                                                                     [4;1H~                                                                                                                                                     [5;1H~                                                                                                                                                     [6;1H~                                                                                                                                                     [7;1H~                                                                                                                                                     [8;1H~                                                                                                                                                     [9;1H~                                                                                                                                                     [10;1H~                                                                                                                                                     [11;1H~                                                                                                                                                     [12;1H~                                                                                                                                                     [13;1H~                                                                                                                                                     [14;1H~                                                                                                                                                     [15;1H~                                                                                                                                                     [16;1H~                                                                                                                                                     [17;1H~                                                                                                                                                     [18;1H~                                                                                                                                                     [19;1H~                                                                                                                                                     [20;1H~                                                                                                                                                     [21;1H~                                                                                                                                                     [22;1H~                                                                                                                                                     [23;1H~                                                                                                                                                     [24;1H~                                                                                                                                                     [25;1H~                                                                                                                                                     [26;1H~                                                                                                                                                     [27;1H~                                                                                                                                                     [28;1H~                                                                                                                                                     [29;1H~                                                                                                                                                     [30;1H~                                                                                                                                                     [31;1H~                                                                                                                                                     [32;1H~                                                                                                                                                     [33;1H~                                                                                                                                                     [34;1H~                                                                                                                                                     [35;1H~                                                                                                                                                     [36;1H~                                                                                                                                                     [37;1H~                                                                                                                                                     [38;1H~                                                                                                                                                     [39;1H~                                                                                                                                                     [m[40;133H0,0-1[9CAll"file1" [New File][1;1H[?25h[?25l[40;123Hn[1;1H[40;1H[97m[41mE35: No previous regular expression[m[40;123H[K[1;1H[40;133H0,0-1[9CAll[1;1H[?25h[?25l[40;123Ha[1;1H[40;123H [1;1H[40;1H[1m-- INSERT --[m[40;13H[K[40;133H0,1[11CAll[1;1H[?25h[?25lm[40;133H1,2[1;2H[?25h[?25l[1;1H[K[40;135H1[1;1H[?25h[?25ln[40;135H2[1;2H[?25h[?25la[40;135H3[1;3H[?25h[?25lm[40;135H4[1;4H[?25h[?25le[40;135H5[1;5H[?25h[?25l:[40;135H6[1;6H[?25h[?25l[1;5H[K[40;135H5[1;5H[?25h[40;1H[K[1;4H[?25l[40;123H^[[1;4H[40;123H  [1;5H[40;133H1,4[11CAll[1;4H[?25h[?25l[40;123H:[1;4H[40;123H[K[40;1H:[?2004h[?25hwq[?25l[?2004l"file1" [New] 1L, 5C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ vi file1[K2
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;40r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[40;1H"file2" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                                     [3;1H~                                                                                                                                                     [4;1H~                                                                                                                                                     [5;1H~                                                                                                                                                     [6;1H~                                                                                                                                                     [7;1H~                                                                                                                                                     [8;1H~                                                                                                                                                     [9;1H~                                                                                                                                                     [10;1H~                                                                                                                                                     [11;1H~                                                                                                                                                     [12;1H~                                                                                                                                                     [13;1H~                                                                                                                                                     [14;1H~                                                                                                                                                     [15;1H~                                                                                                                                                     [16;1H~                                                                                                                                                     [17;1H~                                                                                                                                                     [18;1H~                                                                                                                                                     [19;1H~                                                                                                                                                     [20;1H~                                                                                                                                                     [21;1H~                                                                                                                                                     [22;1H~                                                                                                                                                     [23;1H~                                                                                                                                                     [24;1H~                                                                                                                                                     [25;1H~                                                                                                                                                     [26;1H~                                                                                                                                                     [27;1H~                                                                                                                                                     [28;1H~                                                                                                                                                     [29;1H~                                                                                                                                                     [30;1H~                                                                                                                                                     [31;1H~                                                                                                                                                     [32;1H~                                                                                                                                                     [33;1H~                                                                                                                                                     [34;1H~                                                                                                                                                     [35;1H~                                                                                                                                                     [36;1H~                                                                                                                                                     [37;1H~                                                                                                                                                     [38;1H~                                                                                                                                                     [39;1H~                                                                                                                                                     [m[40;133H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                                                     [3;1H~                                                                                                                                                     [4;1H~                                                                                                                                                     [5;1H~                                                                                                                                                     [6;1H~                                                                                                                                                     [7;1H~                                                                                                                                                     [8;1H~                                                                                                                                                     [9;1H~                                                                                                                                                     [10;1H~                                                                                                                                                     [11;1H~                                                                                                                                                     [12;1H~                                                                                                                                                     [13;1H~                                                                                                                                                     [14;1H~                                                                                                                                                     [15;1H~                                                                                                                                                     [16;1H~                                                                                                                                                     [17;1H~                                                                                                                                                     [18;1H~                                                                                                                                                     [19;1H~                                                                                                                                                     [20;1H~                                                                                                                                                     [21;1H~                                                                                                                                                     [22;1H~                                                                                                                                                     [23;1H~                                                                                                                                                     [24;1H~                                                                                                                                                     [25;1H~                                                                                                                                                     [26;1H~                                                                                                                                                     [27;1H~                                                                                                                                                     [28;1H~                                                                                                                                                     [29;1H~                                                                                                                                                     [30;1H~                                                                                                                                                     [31;1H~                                                                                                                                                     [32;1H~                                                                                                                                                     [33;1H~                                                                                                                                                     [34;1H~                                                                                                                                                     [35;1H~                                                                                                                                                     [36;1H~                                                                                                                                                     [37;1H~                                                                                                                                                     [38;1H~                                                                                                                                                     [39;1H~                                                                                                                                                     [m[40;133H0,0-1[9CAll"file2" [New File][1;1H[?25h[?25l[40;123H~@k[1;1H[40;123H   [1;1H[40;1H[1m-- INSERT --[m[40;14H[K[40;133H0,1[11CAll[1;1H[?25h[?25ls[40;133H1,2[1;2H[?25h[?25lh[40;135H3[1;3H[?25h[?25lr[40;135H4[1;4H[?25h[?25le[40;135H5[1;5H[?25h[?25le[40;135H6[1;6H[?25h[?25lj[40;135H7[1;7H[?25h[40;1H[K[1;6H[?25l[40;123H^[[1;6H[40;123H  [1;7H[40;133H1,6[11CAll[1;6H[?25h[?25l[40;123H:[1;6H[40;123H[K[40;1H:[?2004h[?25hwq[?25l[?2004l"file2" [New] 1L, 7C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ touch new[K[K[Ktouchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls
+file1  file2  touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls -ld
+drwxrwxr-x 2 shree shree 4096 Mar 15 10:30 [0m[01;34m.[0m
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls -ld[K
+total 8
+-rw-rw-r-- 1 shree shree 5 Mar 15 10:29 file1
+-rw-rw-r-- 1 shree shree 7 Mar 15 10:30 file2
+-rw-rw-r-- 1 shree shree 0 Mar 15 10:30 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ touch [K[K[K[K[K[Kls -l
+total 8
+-rw-rw-r-- 1 shree shree 5 Mar 15 10:29 file1
+-rw-rw-r-- 1 shree shree 7 Mar 15 10:30 file2
+-rw-rw-r-- 1 shree shree 0 Mar 15 10:30 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ touch file1
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ touch file1[6Pls -l
+total 8
+-rw-rw-r-- 1 shree shree 5 Mar 15 10:33 file1
+-rw-rw-r-- 1 shree shree 7 Mar 15 10:30 file2
+-rw-rw-r-- 1 shree shree 0 Mar 15 10:30 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls -ltouch file1
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ touch file1[6Pls -l
+total 8
+-rw-rw-r-- 1 shree shree 5 Mar 15 10:53 file1
+-rw-rw-r-- 1 shree shree 7 Mar 15 10:30 file2
+-rw-rw-r-- 1 shree shree 0 Mar 15 10:30 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ clear
+[H[2J[3J]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ whoami
+shree
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ date [K[K[K[K[Kdate
+Monday 15 March 2021 10:54:24 AM IST
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ date +%h:[K[KH%m[K[K:%M:$[K%S
+10:56:53
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cal
+     March 2021       
+Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 [7m15[27m 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29 30 31           
+                      
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cal -y
+                            2021
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6      1  2  3  4  5  6  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   7  8  9 10 11 12 13  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  14 [7m15[27m 16 17 18 19 20  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  21 22 23 24 25 26 27  
+24 25 26 27 28 29 30  28                    28 29 30 31           
+31                                                                
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3                     1         1  2  3  4  5  
+ 4  5  6  7  8  9 10   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+25 26 27 28 29 30     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7            1  2  3  4  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+25 26 27 28 29 30 31  29 30 31              26 27 28 29 30        
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6            1  2  3  4  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  28 29 30              26 27 28 29 30 31     
+31                                                                
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ his[K[K[Kcal -y[Khistory
+ 1025  subl main.cpp driver.h monitor.h design.h
+ 1026  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1027  ./sim 
+ 1028  gtkwave trace.vcd 
+ 1029  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1030  ./sim 
+ 1031  gtkwave trace.vcd 
+ 1032  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1033  ./sim 
+ 1034  gtkwave trace.vcd 
+ 1035  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1036  gtkwave trace.vcd 
+ 1037  ./sim 
+ 1038  gtkwave trace.vcd 
+ 1039  git init
+ 1040  git status
+ 1041  git add *
+ 1042  git commit -m "added encoder program in system c"
+ 1043  git push
+ 1044  exit
+ 1045  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1046  ./sim
+ 1047  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1048  ./sim
+ 1049  gtkwave traces.vcd
+ 1050  gtkwave trace.vcd
+ 1051  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1052  ./sim
+ 1053  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1054  ./sim
+ 1055  gtkwave trace.vcd 
+ 1056  ./sim
+ 1057  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1058  gtkwave trace.vcd 
+ 1059  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1060  ./sim
+ 1061  gtkwave trace.vcd 
+ 1062  subl main.cpp driver.h monitor.h function.h
+ 1063  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1064  ./sim
+ 1065  gtkwave trace.vcd 
+ 1066  subl
+ 1067  gtkwave traces.vcd 
+ 1068  git init
+ 1069  git status
+ 1070  git add *
+ 1071  git commit -m "added Lab sessionals program and updated a folder structure"
+ 1072  git init
+ 1073  git status
+ 1074  git add *
+ 1075  git commit -m "added project files and updated the folder heirarchy"
+ 1076  git init
+ 1077  git add
+ 1078  git status
+ 1079  git add *
+ 1080  git commit -m "documentation updated for project"
+ 1081  git push
+ 1082  subl main.c shapes_op.c shapes.h
+ 1083  sudo apt-get upgrade
+ 1084  sudo apt update
+ 1085  sudo apt-get update
+ 1086  sudo apt\ upgrade
+ 1087  sudo apt upgrade
+ 1088  sudo apt-get upgrade --help
+ 1089  exit
+ 1090  subl main.c num_op.c num.h
+ 1091  gcc main.c num_op.c 
+ 1092  cleaer
+ 1093  clear
+ 1094  gcc main.c num_op.c 
+ 1095  ./a.out 
+ 1096  gcc main.c num_op.c 
+ 1097  ./a.out 
+ 1098  gcc main.c num_op.c 
+ 1099  ./a.out 
+ 1100  gdb ./a.out 
+ 1101  gcc main.c num_op.c 
+ 1102  ./a.out 
+ 1103  gcc main.c num_op.c 
+ 1104  ./a.out 
+ 1105  gcc main.c num_op.c 
+ 1106  ./a.out 
+ 1107  gcc main.c num_op.c 
+ 1108  ./a.out 
+ 1109  gcc main.c num_op.c 
+ 1110  ./a.out 
+ 1111  gcc main.c num_op.c 
+ 1112  ./a.out 
+ 1113  gcc main.c num_op.c 
+ 1114  ./a.out 
+ 1115  gcc main.c num_op.c 
+ 1116  ./a.out 
+ 1117  clear
+ 1118  git inie
+ 1119  git init
+ 1120  git add *
+ 1121  git  commit -m "Added morning batch program for sessional two"
+ 1122  git commmit
+ 1123  git push
+ 1124  cd ..
+ 1125  ls -l
+ 1126  ls -la
+ 1127  cd .ssh/
+ 1128  ls -la
+ 1129  git inir
+ 1130  git init
+ 1131  git clone https://github.com/shreejnanesh/Manipal_codeRepo.git
+ 1132  git config -list
+ 1133  git config --list
+ 1134  cd Manipal_codeRepo/
+ 1135  git log -1
+ 1136  git log -1 -stats
+ 1137  git diff
+ 1138  git diff HEAD HEAD~1
+ 1139  git branch
+ 1140  git log --oneline --graph --all
+ 1141  exixt
+ 1142  exit
+ 1143  git status
+ 1144  subl question.tct
+ 1145  subl question.txt
+ 1146  subl program.c
+ 1147  gedit program.c 
+ 1148  gcc program.c 
+ 1149  ./a.out 
+ 1150  gcc program.c 
+ 1151  ./a.out 
+ 1152  gcc program.c 
+ 1153  ./a.out 
+ 1154  gcc program.c 
+ 1155  ./a.out 
+ 1156  gcc program.c 
+ 1157  ./a.out 
+ 1158  gcc program.c 
+ 1159  ./a.out 
+ 1160  gcc program.c 
+ 1161  ./a.out 
+ 1162  gcc program.c 
+ 1163  ./a.out 
+ 1164  gcc program.c 
+ 1165  ./a.out 
+ 1166  gcc program.c 
+ 1167  ./a.out 
+ 1168  gcc program.c 
+ 1169  ./a.out 
+ 1170  gcc program.c 
+ 1171  ./a.out 
+ 1172  gcc program.c 
+ 1173  ./a.out 
+ 1174  gcc program.c 
+ 1175  ./a.out 
+ 1176  gcc program.c 
+ 1177  ./a.out 
+ 1178  gcc program.c 
+ 1179  ./a.out 
+ 1180  gcc program.c 
+ 1181  ./a.out 
+ 1182  gcc program.c 
+ 1183  ./a.out 
+ 1184  gcc program.c 
+ 1185  ./a.out 
+ 1186  gcc program.c 
+ 1187  ./a.out 
+ 1188  gcc program.c 
+ 1189  ./a.out 
+ 1190  gcc program.c 
+ 1191  ./a.out 
+ 1192  gcc program.c 
+ 1193  ./a.out 
+ 1194  gcc program.c 
+ 1195  ./a.out 
+ 1196  gcc program.c 
+ 1197  ./a.out 
+ 1198  gcc program.c 
+ 1199  ./a.out 
+ 1200  gcc program.c 
+ 1201  ./a.out 
+ 1202  gcc program.c 
+ 1203  ./a.out 
+ 1204  gcc program.c 
+ 1205  ./a.out 
+ 1206  gcc program.c 
+ 1207  ./a.out 
+ 1208  gcc program.c 
+ 1209  ./a.out 
+ 1210  gcc program.c 
+ 1211  ./a.out 
+ 1212  gcc program.c 
+ 1213  ./a.out 
+ 1214  gcc program.c 
+ 1215  ./a.out 
+ 1216  gcc program.c 
+ 1217  ./a.out 
+ 1218  gcc main.c list.c
+ 1219  ./a.out
+ 1220  sudo apt-get install firefox
+ 1221  sudo apt-get upgrade firefox
+ 1222  firefox
+ 1223  subl
+ 1224  gcc main.c list.c
+ 1225  ./a.out 
+ 1226  gcc main.c list.c
+ 1227  ./a.out 
+ 1228  gcc main.c list.c
+ 1229  ./a.out 
+ 1230  gcc main.c list.c
+ 1231  ./a.out 
+ 1232  gcc main.c list.c
+ 1233  ./a.out 
+ 1234  gcc main.c list.c
+ 1235  ./a.out 
+ 1236  gcc main.c list.c
+ 1237  ./a.out 
+ 1238  sudo apt upgrade
+ 1239  sudo apt-get upgrade
+ 1240  sudo apt-get upgrade -R
+ 1241  ifconfig
+ 1242  ipconfig
+ 1243  iconfig
+ 1244  ip
+ 1245  ip -f ipv4
+ 1246  ip -f 
+ 1247  ip -c
+ 1248  ip link
+ 1249  ip addr
+ 1250  git init
+ 1251  git status
+ 1252  gcc main.c stack_op.c 
+ 1253  clear
+ 1254  gcc main.c stack_op.c 
+ 1255  ./a.out 
+ 1256  gcc main.c stack_op.c 
+ 1257  ./a.out 
+ 1258  gcc main.c stack_op.c 
+ 1259  ./a.out 
+ 1260  gcc main.c stack_op.c 
+ 1261  ./a.out 
+ 1262  gcc main.c stack_op.c 
+ 1263  ./a.out 
+ 1264  gcc main.c stack_op.c 
+ 1265  ./a.out 
+ 1266  gcc main.c stack_op.c 
+ 1267  ./a.out 
+ 1268  gcc main.c stack_op.c 
+ 1269  ./a.out 
+ 1270  gcc main.c stack_op.c 
+ 1271  ./a.out 
+ 1272  gcc main.c stack_op.c 
+ 1273  ./a.out 
+ 1274  gcc main.c stack_op.c 
+ 1275  ./a.out 
+ 1276  gcc main.c stack_op.c 
+ 1277  ./a.out 
+ 1278  gcc main.c stack_op.c 
+ 1279  ./a.out 
+ 1280  gcc main.c stack_op.c 
+ 1281  ./a.out 
+ 1282  gcc main.c stack_op.c 
+ 1283  ./a.out 
+ 1284  subl main.c
+ 1285  subl bubble.c
+ 1286  gcc bubble.c
+ 1287  ./a.out 
+ 1288  gcc bubble.c
+ 1289  ./a.out 
+ 1290  gcc bubble.c
+ 1291  ./a.out 
+ 1292  gcc bubble.c
+ 1293  ./a.out 
+ 1294  clear
+ 1295  ./a.out 
+ 1296  gcc bubble.c
+ 1297  ./a.out 
+ 1298  gcc bubble.c
+ 1299  ./a.out 
+ 1300  gcc bubble.c
+ 1301  ./a.out 
+ 1302  gcc bubble.c
+ 1303  ./a.out 
+ 1304  clear
+ 1305  gcc selection.c 
+ 1306  ./a.out 
+ 1307  gcc selection.c 
+ 1308  ./a.out 
+ 1309  gcc selection.c 
+ 1310  ./a.out 
+ 1311  gcc selection.c 
+ 1312  ./a.out 
+ 1313  gcc bubble.c 
+ 1314  ./a.out 
+ 1315  gcc bubble.c 
+ 1316  ./a.out 
+ 1317  gcc selection.c 
+ 1318  ./a.out 
+ 1319  gcc selection.c 
+ 1320  ./a.out 
+ 1321  gcc selection.c 
+ 1322  ./a.out 
+ 1323  gcc insertion.c 
+ 1324  ./a.out 
+ 1325  gcc insertion.c 
+ 1326  ./a.out 
+ 1327  gcc insertion.c 
+ 1328  ./a.out 
+ 1329  gcc insertion.c 
+ 1330  ./a.out 
+ 1331  gcc insertion.c 
+ 1332  ./a.out 
+ 1333  gcc insertion.c 
+ 1334  ./a.out 
+ 1335  gcc insertion.c 
+ 1336  ./a.out 
+ 1337  gcc insertion.c 
+ 1338  ./a.out 
+ 1339  gcc insertion.c 
+ 1340  ./a.out 
+ 1341  gcc insertion.c 
+ 1342  ./a.out 
+ 1343  gcc insertion.c 
+ 1344  ./a.out 
+ 1345  gcc insertion.c 
+ 1346  ./a.out 
+ 1347  gcc insertion.c 
+ 1348  ./a.out 
+ 1349  gcc insertion.c 
+ 1350  ./a.out 
+ 1351  gcc insertion.c 
+ 1352  ./a.out 
+ 1353  gcc insertion.c 
+ 1354  ./a.out 
+ 1355  gcc insertion.c 
+ 1356  ./a.out 
+ 1357  gcc insertion.c 
+ 1358  ./a.out 
+ 1359  gcc insertion.c 
+ 1360  ./a.out 
+ 1361  gcc insertion.c 
+ 1362  ./a.out 
+ 1363  gcc insertion.c 
+ 1364  ./a.out 
+ 1365  gcc insertion.c 
+ 1366  ./a.out 
+ 1367  gcc insertion.c 
+ 1368  ./a.out 
+ 1369  gcc insertion.c 
+ 1370  ./a.out 
+ 1371  gcc insertion.c 
+ 1372  ./a.out 
+ 1373  gcc insertion.c 
+ 1374  ./a.out 
+ 1375  gcc insertion.c 
+ 1376  ./a.out 
+ 1377  gcc insertion.c 
+ 1378  ./a.out 
+ 1379  gcc insertion.c 
+ 1380  ./a.out 
+ 1381  gcc insertion.c 
+ 1382  ./a.out 
+ 1383  gcc insertion.c 
+ 1384  ./a.out 
+ 1385  gcc insertion.c 
+ 1386  ./a.out 
+ 1387  gcc insertion.c 
+ 1388  ./a.out 
+ 1389  gcc insertion.c 
+ 1390  ./a.out 
+ 1391  gcc insertion.c 
+ 1392  ./a.out 
+ 1393  gcc insertion.c 
+ 1394  ./a.out 
+ 1395  gcc insertion.c 
+ 1396  ./a.out 
+ 1397  gcc insertion.c 
+ 1398  ./a.out 
+ 1399  gcc insertion.c 
+ 1400  ./a.out 
+ 1401  gcc insertion.c 
+ 1402  ./a.out 
+ 1403  gcc insertion.c 
+ 1404  ./a.out 
+ 1405  gcc insertion.c 
+ 1406  ./a.out 
+ 1407  gdb a.out 
+ 1408  ./a.out 
+ 1409  gdb a.out 
+ 1410  gcc insertion.c 
+ 1411  gdb a.out 
+ 1412  gcc insertion.c 
+ 1413  ./a.out 
+ 1414  gcc insertion.c 
+ 1415  ./a.out 
+ 1416  gcc insertion.c 
+ 1417  ./a.out 
+ 1418  gcc insertion.c 
+ 1419  ./a.out 
+ 1420  gcc insertion.c 
+ 1421  ./a.out 
+ 1422  gcc insertion.c 
+ 1423  ./a.out 
+ 1424  gcc insertion.c 
+ 1425  ./a.out 
+ 1426  gcc insertion.c 
+ 1427  ./a.out 
+ 1428  gcc insertion.c 
+ 1429  ./a.out 
+ 1430  gcc insertion.c 
+ 1431  ./a.out 
+ 1432  subl bst.c
+ 1433  gcc bst.c 
+ 1434  subl bst.c
+ 1435  gcc bst.c 
+ 1436  clear
+ 1437  gcc bst.c 
+ 1438  clear
+ 1439  gcc bst.c 
+ 1440  ./a.out 
+ 1441  gcc bst.c 
+ 1442  clear
+ 1443  gcc bst.c 
+ 1444  clear
+ 1445  gcc bst.c 
+ 1446  clear
+ 1447  gcc bst.c 
+ 1448  ./a.out 
+ 1449  gcc bst.c 
+ 1450  ./a.out 
+ 1451  gcc hashint.c 
+ 1452  ./a.out 
+ 1453  gcc hashint.c 
+ 1454  ./a.out 
+ 1455  gcc hashint.c 
+ 1456  ./a.out 
+ 1457  gcc hashchar.c 
+ 1458  ./a.out 
+ 1459  gcc hashchar.c 
+ 1460  ./a.out 
+ 1461  gcc hashchar.c 
+ 1462  ./a.out 
+ 1463  gcc hashchar.c 
+ 1464  ./a.out 
+ 1465  gcc hashchar.c 
+ 1466  ./a.out 
+ 1467  gcc bst.c 
+ 1468  ./a.out 
+ 1469  gcc bst.c 
+ 1470  ./a.out 
+ 1471  gcc bst.c 
+ 1472  ./a.out 
+ 1473  gcc bst.c 
+ 1474  ./a.out 
+ 1475  gcc bst.c 
+ 1476  ./a.out 
+ 1477  gcc bst.c 
+ 1478  ./a.out 
+ 1479  gcc bst.c 
+ 1480  ./a.out 
+ 1481  gdb a.out 
+ 1482  gcc bst.c 
+ 1483  ./a.out 
+ 1484  clear
+ 1485  gcc bst.c 
+ 1486  ./a.out 
+ 1487  gcc bst.c 
+ 1488  ./a.out 
+ 1489  gcc bst.c 
+ 1490  ./a.out 
+ 1491  gcc bst.c 
+ 1492  ./a.out 
+ 1493  gcc bst.c 
+ 1494  ./a.out 
+ 1495  gcc bst.c 
+ 1496  ./a.out 
+ 1497  git status
+ 1498  git add *
+ 1499  git commit -m "added final fastrack c exam question. Added C sorting Hashtable questions and bst solutions"
+ 1500  git push
+ 1501  exit
+ 1502  nmcli con add type ethernet ifname enxf8dc7a000001 ip4 192.168.0.1/24
+ 1503  ../
+ 1504  cd ../
+ 1505  cd/
+ 1506  cd /
+ 1507  ls
+ 1508  cd srv/
+ 1509  ls
+ 1510  cd tftp/
+ 1511  ls
+ 1512  echo vishubahubali | sudo tee vishu
+ 1513  ls
+ 1514  cat vishu 
+ 1515  sudo apt install -y putty
+ 1516  sudo apt install -y tftpd-hpa
+ 1517  ll
+ 1518  sudo adduser $USER dialout
+ 1519  newgrp dialout
+ 1520  ping www.google.com
+ 1521  subl main.cpp driver.h monitor.h function.h
+ 1522  ping www.google.com
+ 1523  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1524  ping www.google.com
+ 1525  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1526  ./sim 
+ 1527  gtkwave trace.vcd.vcd 
+ 1528  ./sim 
+ 1529  gtkwave trace.vcd.vcd 
+ 1530  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1531  ./sim 
+ 1532  git status
+ 1533  git add *
+ 1534  git commit -m "Added external DS question solution of dating site. Added new proggrams on System c i.e fifo fsm tff"
+ 1535  git push
+ 1536  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim assignment1.cpp -lsystemc
+ 1537  ./sim 
+ 1538  o01
+ 1539  ls -ld
+ 1540  ls
+ 1541  ls -l
+ 1542  chmod 777 test.txt 
+ 1543  ./sim 
+ 1544  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim assignment1.cpp -lsystemc
+ 1545  ./sim 
+ 1546  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1547  cpp
+ 1548  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1549  ./sim
+ 1550  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1551  ./sim
+ 1552  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1553  ./sim
+ 1554  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1555  ./sim
+ 1556  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1557  clear
+ 1558  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1559  ./sim
+ 1560  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1561  ./sim
+ 1562  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1563  ./sim
+ 1564  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1565  ./sim
+ 1566  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1567  ./sim
+ 1568  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1569  ./sim
+ 1570  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1571  ./sim
+ 1572  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1573  ./sim
+ 1574  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1575  ./sim
+ 1576  subl main.cpp monitor.h driver.h function.h
+ 1577  subl main.c op.c head.c
+ 1578  gcc main.c
+ 1579  ./a.out 
+ 1580  gcc main.c
+ 1581  ./a.out 
+ 1582  gcc main.c
+ 1583  ./a.out 
+ 1584  gcc main.c
+ 1585  ./a.out 
+ 1586  gcc main.c
+ 1587  ./a.out 
+ 1588  gcc main.c
+ 1589  ./a.out 
+ 1590  gcc main.c
+ 1591  ./a.out 
+ 1592  gcc main.c
+ 1593  ./a.out 
+ 1594  gcc main.c
+ 1595  ./a.out 
+ 1596  gcc main.c
+ 1597  ./a.out 
+ 1598  gcc main.c
+ 1599  ./a.out 
+ 1600  gcc main.c
+ 1601  ./a.out 
+ 1602  gcc main.c
+ 1603  ./a.out 
+ 1604  gcc main.c
+ 1605  ./a.out 
+ 1606  gcc main.c
+ 1607  ./a.out 
+ 1608  gcc main.c
+ 1609  ./a.out 
+ 1610  gcc main.c
+ 1611  ./a.out 
+ 1612  gcc main.c
+ 1613  ./a.out 
+ 1614  gcc main.c
+ 1615  ./a.out 
+ 1616  gcc main.c
+ 1617  ./a.out 
+ 1618  gcc main.c
+ 1619  ./a.out 
+ 1620  gcc main.c
+ 1621  ./a.out 
+ 1622  gcc main.c
+ 1623  ./a.out 
+ 1624  gcc main.c
+ 1625  ./a.out 
+ 1626  gcc main.c
+ 1627  ./a.out 
+ 1628  gcc main.c
+ 1629  ./a.out 
+ 1630  gcc main.c
+ 1631  ./a.out 
+ 1632  gcc main.c
+ 1633  ./a.out 
+ 1634  gcc main.c
+ 1635  ./a.out 
+ 1636  gcc main.c
+ 1637  ./a.out 
+ 1638  gcc main.c
+ 1639  ./a.out 
+ 1640  gcc main.c
+ 1641  ./a.out 
+ 1642  gcc main.c
+ 1643  ./a.out 
+ 1644  which perl
+ 1645  subl test.pl
+ 1646  perl test.pl 
+ 1647  clear
+ 1648  perl test.pl 
+ 1649  clear
+ 1650  perl test.pl 
+ 1651  python3
+ 1652  clear
+ 1653  python3 --help
+ 1654  pydoc for
+ 1655  python3
+ 1656  pydoc for
+ 1657  clear
+ 1658  cd ../
+ 1659  mkdir Python
+ 1660  cd Python/
+ 1661  subl pgm1.py
+ 1662  python3 pgm1.py 
+ 1663  git status
+ 1664  git add *
+ 1665  git commit -m "Complete Folder Structure Rearranged, Updated Readme.md files as per to the codes,Added Second semister folder with perl and python scrips, Verification of sem 2 project is desiging file untill driver is updated in this commit"
+ 1666  git push
+ 1667  git pull
+ 1668  git status
+ 1669  git add *
+ 1670  git commit -m "Deleting reduntant files"
+ 1671  git add .
+ 1672  git status
+ 1673  git commit -m "Removing reduntant Files"
+ 1674  git push
+ 1675  git status
+ 1676  git add *
+ 1677  git status
+ 1678  git commit -m "Adding Sample directory standard"
+ 1679  git push
+ 1680  git status
+ 1681  git add *
+ 1682  git commit -m "Updated main Readme file"
+ 1683  git push
+ 1684  git status
+ 1685  git add *
+ 1686  git commit -m "Updated main Readme file"
+ 1687  git push
+ 1688  git add *
+ 1689  git commit -m "Updated main Readme file"
+ 1690  git push
+ 1691  git add *
+ 1692  git commit -m "Updated all Readme file"
+ 1693  git push
+ 1694  git add *
+ 1695  git commit -m "Updated all Readme file"
+ 1696  git push
+ 1697  git add *
+ 1698  git commit -m "Updated  Readme file"
+ 1699  git push
+ 1700  git add *
+ 1701  git commit -m "Updated  Readme file"
+ 1702  git push
+ 1703  exit
+ 1704  git status
+ 1705  git add *
+ 1706  git status
+ 1707  git commit -m "Updating design and Verification file of 2nd semister mini project"
+ 1708  git push
+ 1709  exit
+ 1710  git status
+ 1711  git add *
+ 1712  git status
+ 1713  git -commit -m "updated design files with decrypt"
+ 1714  git commit -m "updated design files with decrypt"
+ 1715  git push
+ 1716  exit
+ 1717  script -flush
+ 1718  script --flush
+ 1719  open script
+ 1720  ls
+ 1721  cat typescript 
+ 1722  file typescript 
+ 1723  subl typescript 
+ 1724  cat typescript 
+ 1725  clear
+ 1726  exit
+ 1727  man script
+ 1728  script --f
+ 1729  script -f
+ 1730  exit
+ 1731  which shell
+ 1732  which bash
+ 1733  which shell
+ 1734  script
+ 1735  exit
+ 1736  pwd
+ 1737  ls
+ 1738  exit
+ 1739  gedit typescript 
+ 1740  meow
+ 1741  gedit typescript 
+ 1742  script -flush
+ 1743  script -f
+ 1744  exit
+ 1745  script
+ 1746  cat typescript 
+ 1747  subl typescript 
+ 1748  gedit typescript 
+ 1749  file typescript 
+ 1750  gedit typescript 
+ 1751  clear
+ 1752  rm typescript 
+ 1753  clear
+ 1754  eefwedf
+ 1755  clear
+ 1756  exit
+ 1757  echo 
+ 1758  echo $sh
+ 1759  echo $SH
+ 1760  echo $SHELL
+ 1761  which shell
+ 1762  which terminal
+ 1763  echo $TERM
+ 1764  man -t
+ 1765  man -x
+ 1766  env
+ 1767  set
+ 1768  printenv
+ 1769  echo $HIST_FILE
+ 1770  echo $HISTFILE
+ 1771  history
+ 1772  exit
+ 1773  cd
+ 1774  ls
+ 1775  pwd
+ 1776  ls /home
+ 1777  ls home
+ 1778  ls /home
+ 1779  ls /home/
+ 1780  ls /home/ -d
+ 1781  ls /home/ -ld
+ 1782  ls /home/ -l
+ 1783  clear
+ 1784  ls
+ 1785  clear
+ 1786  history 
+ 1787  bc
+ 1788  man bc
+ 1789  bc
+ 1790  exa
+ 1791  echo
+ 1792  echo *
+ 1793  lsattr
+ 1794  printf '%s\n' *
+ 1795  printf '%s\n' .* *
+ 1796  printf '%s\n' .* 
+ 1797  printf '%s\n' .* *
+ 1798  echo .*
+ 1799  echo .* *
+ 1800  find
+ 1801  cd ../..
+ 1802  find
+ 1803  ls
+ 1804  cd 'Semister Two'/
+ 1805  cd ../Semister\ One/
+ 1806  ls
+ 1807  cd ../Semister\ Two/
+ 1808  cd ls
+ 1809  ls
+ 1810  cd Perl/
+ 1811  ls
+ 1812  fing
+ 1813  find
+ 1814  bc
+ 1815  alias
+ 1816  man alias
+ 1817  man bah
+ 1818  type alias
+ 1819  man bash
+ 1820  man bash > man
+ 1821  gedit man
+ 1822  subl man
+ 1823  clear
+ 1824  alias c='clear'
+ 1825  c
+ 1826  type c
+ 1827  type clear
+ 1828  alias
+ 1829  c
+ 1830  alias
+ 1831  exit
+ 1832  touch test
+ 1833  ls
+ 1834  man touch
+ 1835  ls -l
+ 1836  touch test.pl 
+ 1837  ls -l
+ 1838  type exit
+ 1839  type cd
+ 1840  type ls
+ 1841  type country
+ 1842  clear
+ 1843  who am i
+ 1844  who ami
+ 1845  whoami
+ 1846  date'
+ 1847  date
+ 1848  man date
+ 1849  cal
+ 1850  cal - y
+ 1851  cal -y
+ 1852  date -t
+ 1853  man date
+ 1854  date -t "now"
+ 1855  man date
+ 1856  date -t 'now'
+ 1857  man date
+ 1858  man date
+ 1859  date +%a
+ 1860  date +hhmmss
+ 1861  date +%hhmmss
+ 1862  date +%hh:mm:ss
+ 1863  date +%h:%mm:%ss
+ 1864  date +%h:%m:%s
+ 1865  date +%H:%M:%S
+ 1866  date +%HH:%M:%S
+ 1867  date +%H:%M:%S
+ 1868  man date
+ 1869  date  [MMDDhhmm[[CC]YY][.ss]]
+ 1870  date -u  [MMDDhhmm[[CC]YY][.ss]]
+ 1871  man date 
+ 1872  date MMDDhh
+ 1873  date MMDDhhmm
+ 1874  man date 
+ 1875  date MMDDhhmm
+ 1876  date -MMDDhhmm
+ 1877  date -u
+ 1878  date -u -MMDDhhmm
+ 1879  date -u MMDDhhmm
+ 1880  claer
+ 1881  clear
+ 1882  history 
+ 1883  man history 
+ 1884  newgrp dialout
+ 1885  exit
+ 1886  alias
+ 1887  c
+ 1888  l
+ 1889  la
+ 1890  ll
+ 1891  grep
+ 1892  clear
+ 1893  ls -a
+ 1894  echo .*
+ 1895  echo /home/.*
+ 1896  echo /home/shree/.*
+ 1897  print /home/shree/.*
+ 1898  printf "%s\n" /home/shree/.*
+ 1899  printf "%s\t" /home/shree/.*
+ 1900  printf "%s\n" /home/shree/.*
+ 1901  ls -i
+ 1902  ls -li
+ 1903  uname -r
+ 1904  uname -a
+ 1905  man cp
+ 1906  man gcc |tail -20 
+ 1907  man gcc |tail -30
+ 1908  man bash |tail -30
+ 1909  man gcc >gcc
+ 1910  lsb_release 
+ 1911  lsb_release -r
+ 1912  lsb_release -a
+ 1913  uname -a
+ 1914  cat /etc/passwd
+ 1915  cat /proc/cpuinfo 
+ 1916  lscpu
+ 1917  ls /proc/cpuinfo -l
+ 1918  ls /proc/cpuinfo -lh
+ 1919  ls -lh
+ 1920  free
+ 1921  free -h
+ 1922  lsmem
+ 1923  lsblk
+ 1924  which bash
+ 1925  whatis bash
+ 1926  which perl
+ 1927  whatis perl
+ 1928  which py
+ 1929  which python
+ 1930  which python3
+ 1931  whatis python3
+ 1932  df
+ 1933  du
+ 1934  free'
+ 1935  free
+ 1936  du -sfc
+ 1937  du -shc
+ 1938  df -shc
+ 1939  df -hc
+ 1940  df -h
+ 1941  df -t
+ 1942  df -T
+ 1943  man df
+ 1944  tar
+ 1945  type tar
+ 1946  man tar
+ 1947  whatis tar
+ 1948  ll /usr/bin/tar
+ 1949  echo $PATH
+ 1950  man tar
+ 1951  ls
+ 1952  tar -A gcc
+ 1953  tar -A gcc man 
+ 1954  man tar
+ 1955  tar -cf out.tar -v gcc
+ 1956  tar -A out.tar -v man
+ 1957  tar -Af out.tar -v man
+ 1958  man tar
+ 1959  tar --append -f  out.tar -v man
+ 1960  man tar
+ 1961  tar -cf out.tar -v man
+ 1962  tar -cf out.tar -v gcc
+ 1963  man tar
+ 1964  tar --append -f  out.tar  man
+ 1965  man tar
+ 1966  tar -xf out.tar 
+ 1967  rm out.tar 
+ 1968  clear
+ 1969  tar -cfj out.tar gcc man
+ 1970  tar -cf out.tar gcc man
+ 1971  man tar
+ 1972  tar -j out.tar
+ 1973  ls
+ 1974  ls -ld
+ 1975  tar -j -f out.tar 
+ 1976  tar -cj -f out.tar 
+ 1977  tar -j -cf out.zip
+ 1978  tar -j -cf out.zip out.tar
+ 1979  tar -cj -f out.zip out.tar
+ 1980  tar -cj -f out.gz out.tar
+ 1981  tar -cvj -f out.gz out.tar
+ 1982  tar -cvzf out.gz outar
+ 1983  tar -cvzf out.gz man gcc
+ 1984  tar -cvzf out.gz man 
+ 1985  tar -cvzf out.tar.gz man 
+ 1986  tar -cvzf out.tar.gz man gcc
+ 1987  tar -cf out.tar man gcc
+ 1988  tar -czf out.tar.gz out.tar 
+ 1989  ls
+ 1990  rm *.tar *.gz
+ 1991  ls
+ 1992  l
+ 1993  tar -cvz gcc man
+ 1994  tar -czvf s.tar.gz gcc man
+ 1995  l
+ 1996  tar -xzvf s.tar.gz 
+ 1997  ls
+ 1998  exit
+ 1999  echo $SHELL
+ 2000  env
+ 2001  pwd
+ 2002  cd /
+ 2003  ls /home
+ 2004  cd /home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl
+ 2005  cd /home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister\ Two/Perl
+ 2006  mkdir Shree
+ 2007  cd Shree/
+ 2008  vi file1
+ 2009  vi file2
+ 2010  touch touchfile
+ 2011  ls
+ 2012  ls -ld
+ 2013  ls -l
+ 2014  touch file1
+ 2015  ls -l
+ 2016  touch file1
+ 2017  ls -l
+ 2018  clear
+ 2019  whoami
+ 2020  date
+ 2021  date +%H:%M:%S
+ 2022  cal
+ 2023  cal -y
+ 2024  history
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ !2020
+date
+Monday 15 March 2021 10:58:04 AM IST
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ !!
+date
+Monday 15 March 2021 10:58:26 AM IST
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+A=!)[K[K1[K[K[Ka =10 10[C[C
+b=[K = 20
+1
+1
+2[Ka
+10
+b
+20
+a+b
+30
+A[Ka8[K*b
+200
+quit
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ priny [K[Kt "%s\n" .* *
+Error: no such file "%s\n"
+Error: no "print" mailcap rules found for type "inode/directory"
+Error: no "print" mailcap rules found for type "inode/directory"
+Error: no "print" mailcap rules found for type "text/plain"
+Error: no "print" mailcap rules found for type "text/plain"
+Error: no "print" mailcap rules found for type "inode/x-empty"
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ print "%s\n" .* *[C[1P*[K[1P*
+Error: no such file "%s\n"
+Error: no "print" mailcap rules found for type "text/plain"
+Error: no "print" mailcap rules found for type "text/plain"
+Error: no "print" mailcap rules found for type "inode/x-empty"
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ print "%s\n" *[C[1@f
+file1
+file2
+touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ printf "%s\n" * .*
+file1
+file2
+touchfile
+.
+..
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ echo .&*[K[K* *
+. .. file1 file2 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ alear[K[K[K[K[Kaliad[Ks -a[K[Kc '[K[K[K[K[K[K[K[K[Kl[Kalias c =[K[K=clear[K[K[K[K[K"[Kclear
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ c
+[H[2J[3J]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ alia[K[K[K[Khistory 
+ 1035  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1036  gtkwave trace.vcd 
+ 1037  ./sim 
+ 1038  gtkwave trace.vcd 
+ 1039  git init
+ 1040  git status
+ 1041  git add *
+ 1042  git commit -m "added encoder program in system c"
+ 1043  git push
+ 1044  exit
+ 1045  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1046  ./sim
+ 1047  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1048  ./sim
+ 1049  gtkwave traces.vcd
+ 1050  gtkwave trace.vcd
+ 1051  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1052  ./sim
+ 1053  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1054  ./sim
+ 1055  gtkwave trace.vcd 
+ 1056  ./sim
+ 1057  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1058  gtkwave trace.vcd 
+ 1059  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1060  ./sim
+ 1061  gtkwave trace.vcd 
+ 1062  subl main.cpp driver.h monitor.h function.h
+ 1063  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1064  ./sim
+ 1065  gtkwave trace.vcd 
+ 1066  subl
+ 1067  gtkwave traces.vcd 
+ 1068  git init
+ 1069  git status
+ 1070  git add *
+ 1071  git commit -m "added Lab sessionals program and updated a folder structure"
+ 1072  git init
+ 1073  git status
+ 1074  git add *
+ 1075  git commit -m "added project files and updated the folder heirarchy"
+ 1076  git init
+ 1077  git add
+ 1078  git status
+ 1079  git add *
+ 1080  git commit -m "documentation updated for project"
+ 1081  git push
+ 1082  subl main.c shapes_op.c shapes.h
+ 1083  sudo apt-get upgrade
+ 1084  sudo apt update
+ 1085  sudo apt-get update
+ 1086  sudo apt\ upgrade
+ 1087  sudo apt upgrade
+ 1088  sudo apt-get upgrade --help
+ 1089  exit
+ 1090  subl main.c num_op.c num.h
+ 1091  gcc main.c num_op.c 
+ 1092  cleaer
+ 1093  clear
+ 1094  gcc main.c num_op.c 
+ 1095  ./a.out 
+ 1096  gcc main.c num_op.c 
+ 1097  ./a.out 
+ 1098  gcc main.c num_op.c 
+ 1099  ./a.out 
+ 1100  gdb ./a.out 
+ 1101  gcc main.c num_op.c 
+ 1102  ./a.out 
+ 1103  gcc main.c num_op.c 
+ 1104  ./a.out 
+ 1105  gcc main.c num_op.c 
+ 1106  ./a.out 
+ 1107  gcc main.c num_op.c 
+ 1108  ./a.out 
+ 1109  gcc main.c num_op.c 
+ 1110  ./a.out 
+ 1111  gcc main.c num_op.c 
+ 1112  ./a.out 
+ 1113  gcc main.c num_op.c 
+ 1114  ./a.out 
+ 1115  gcc main.c num_op.c 
+ 1116  ./a.out 
+ 1117  clear
+ 1118  git inie
+ 1119  git init
+ 1120  git add *
+ 1121  git  commit -m "Added morning batch program for sessional two"
+ 1122  git commmit
+ 1123  git push
+ 1124  cd ..
+ 1125  ls -l
+ 1126  ls -la
+ 1127  cd .ssh/
+ 1128  ls -la
+ 1129  git inir
+ 1130  git init
+ 1131  git clone https://github.com/shreejnanesh/Manipal_codeRepo.git
+ 1132  git config -list
+ 1133  git config --list
+ 1134  cd Manipal_codeRepo/
+ 1135  git log -1
+ 1136  git log -1 -stats
+ 1137  git diff
+ 1138  git diff HEAD HEAD~1
+ 1139  git branch
+ 1140  git log --oneline --graph --all
+ 1141  exixt
+ 1142  exit
+ 1143  git status
+ 1144  subl question.tct
+ 1145  subl question.txt
+ 1146  subl program.c
+ 1147  gedit program.c 
+ 1148  gcc program.c 
+ 1149  ./a.out 
+ 1150  gcc program.c 
+ 1151  ./a.out 
+ 1152  gcc program.c 
+ 1153  ./a.out 
+ 1154  gcc program.c 
+ 1155  ./a.out 
+ 1156  gcc program.c 
+ 1157  ./a.out 
+ 1158  gcc program.c 
+ 1159  ./a.out 
+ 1160  gcc program.c 
+ 1161  ./a.out 
+ 1162  gcc program.c 
+ 1163  ./a.out 
+ 1164  gcc program.c 
+ 1165  ./a.out 
+ 1166  gcc program.c 
+ 1167  ./a.out 
+ 1168  gcc program.c 
+ 1169  ./a.out 
+ 1170  gcc program.c 
+ 1171  ./a.out 
+ 1172  gcc program.c 
+ 1173  ./a.out 
+ 1174  gcc program.c 
+ 1175  ./a.out 
+ 1176  gcc program.c 
+ 1177  ./a.out 
+ 1178  gcc program.c 
+ 1179  ./a.out 
+ 1180  gcc program.c 
+ 1181  ./a.out 
+ 1182  gcc program.c 
+ 1183  ./a.out 
+ 1184  gcc program.c 
+ 1185  ./a.out 
+ 1186  gcc program.c 
+ 1187  ./a.out 
+ 1188  gcc program.c 
+ 1189  ./a.out 
+ 1190  gcc program.c 
+ 1191  ./a.out 
+ 1192  gcc program.c 
+ 1193  ./a.out 
+ 1194  gcc program.c 
+ 1195  ./a.out 
+ 1196  gcc program.c 
+ 1197  ./a.out 
+ 1198  gcc program.c 
+ 1199  ./a.out 
+ 1200  gcc program.c 
+ 1201  ./a.out 
+ 1202  gcc program.c 
+ 1203  ./a.out 
+ 1204  gcc program.c 
+ 1205  ./a.out 
+ 1206  gcc program.c 
+ 1207  ./a.out 
+ 1208  gcc program.c 
+ 1209  ./a.out 
+ 1210  gcc program.c 
+ 1211  ./a.out 
+ 1212  gcc program.c 
+ 1213  ./a.out 
+ 1214  gcc program.c 
+ 1215  ./a.out 
+ 1216  gcc program.c 
+ 1217  ./a.out 
+ 1218  gcc main.c list.c
+ 1219  ./a.out
+ 1220  sudo apt-get install firefox
+ 1221  sudo apt-get upgrade firefox
+ 1222  firefox
+ 1223  subl
+ 1224  gcc main.c list.c
+ 1225  ./a.out 
+ 1226  gcc main.c list.c
+ 1227  ./a.out 
+ 1228  gcc main.c list.c
+ 1229  ./a.out 
+ 1230  gcc main.c list.c
+ 1231  ./a.out 
+ 1232  gcc main.c list.c
+ 1233  ./a.out 
+ 1234  gcc main.c list.c
+ 1235  ./a.out 
+ 1236  gcc main.c list.c
+ 1237  ./a.out 
+ 1238  sudo apt upgrade
+ 1239  sudo apt-get upgrade
+ 1240  sudo apt-get upgrade -R
+ 1241  ifconfig
+ 1242  ipconfig
+ 1243  iconfig
+ 1244  ip
+ 1245  ip -f ipv4
+ 1246  ip -f 
+ 1247  ip -c
+ 1248  ip link
+ 1249  ip addr
+ 1250  git init
+ 1251  git status
+ 1252  gcc main.c stack_op.c 
+ 1253  clear
+ 1254  gcc main.c stack_op.c 
+ 1255  ./a.out 
+ 1256  gcc main.c stack_op.c 
+ 1257  ./a.out 
+ 1258  gcc main.c stack_op.c 
+ 1259  ./a.out 
+ 1260  gcc main.c stack_op.c 
+ 1261  ./a.out 
+ 1262  gcc main.c stack_op.c 
+ 1263  ./a.out 
+ 1264  gcc main.c stack_op.c 
+ 1265  ./a.out 
+ 1266  gcc main.c stack_op.c 
+ 1267  ./a.out 
+ 1268  gcc main.c stack_op.c 
+ 1269  ./a.out 
+ 1270  gcc main.c stack_op.c 
+ 1271  ./a.out 
+ 1272  gcc main.c stack_op.c 
+ 1273  ./a.out 
+ 1274  gcc main.c stack_op.c 
+ 1275  ./a.out 
+ 1276  gcc main.c stack_op.c 
+ 1277  ./a.out 
+ 1278  gcc main.c stack_op.c 
+ 1279  ./a.out 
+ 1280  gcc main.c stack_op.c 
+ 1281  ./a.out 
+ 1282  gcc main.c stack_op.c 
+ 1283  ./a.out 
+ 1284  subl main.c
+ 1285  subl bubble.c
+ 1286  gcc bubble.c
+ 1287  ./a.out 
+ 1288  gcc bubble.c
+ 1289  ./a.out 
+ 1290  gcc bubble.c
+ 1291  ./a.out 
+ 1292  gcc bubble.c
+ 1293  ./a.out 
+ 1294  clear
+ 1295  ./a.out 
+ 1296  gcc bubble.c
+ 1297  ./a.out 
+ 1298  gcc bubble.c
+ 1299  ./a.out 
+ 1300  gcc bubble.c
+ 1301  ./a.out 
+ 1302  gcc bubble.c
+ 1303  ./a.out 
+ 1304  clear
+ 1305  gcc selection.c 
+ 1306  ./a.out 
+ 1307  gcc selection.c 
+ 1308  ./a.out 
+ 1309  gcc selection.c 
+ 1310  ./a.out 
+ 1311  gcc selection.c 
+ 1312  ./a.out 
+ 1313  gcc bubble.c 
+ 1314  ./a.out 
+ 1315  gcc bubble.c 
+ 1316  ./a.out 
+ 1317  gcc selection.c 
+ 1318  ./a.out 
+ 1319  gcc selection.c 
+ 1320  ./a.out 
+ 1321  gcc selection.c 
+ 1322  ./a.out 
+ 1323  gcc insertion.c 
+ 1324  ./a.out 
+ 1325  gcc insertion.c 
+ 1326  ./a.out 
+ 1327  gcc insertion.c 
+ 1328  ./a.out 
+ 1329  gcc insertion.c 
+ 1330  ./a.out 
+ 1331  gcc insertion.c 
+ 1332  ./a.out 
+ 1333  gcc insertion.c 
+ 1334  ./a.out 
+ 1335  gcc insertion.c 
+ 1336  ./a.out 
+ 1337  gcc insertion.c 
+ 1338  ./a.out 
+ 1339  gcc insertion.c 
+ 1340  ./a.out 
+ 1341  gcc insertion.c 
+ 1342  ./a.out 
+ 1343  gcc insertion.c 
+ 1344  ./a.out 
+ 1345  gcc insertion.c 
+ 1346  ./a.out 
+ 1347  gcc insertion.c 
+ 1348  ./a.out 
+ 1349  gcc insertion.c 
+ 1350  ./a.out 
+ 1351  gcc insertion.c 
+ 1352  ./a.out 
+ 1353  gcc insertion.c 
+ 1354  ./a.out 
+ 1355  gcc insertion.c 
+ 1356  ./a.out 
+ 1357  gcc insertion.c 
+ 1358  ./a.out 
+ 1359  gcc insertion.c 
+ 1360  ./a.out 
+ 1361  gcc insertion.c 
+ 1362  ./a.out 
+ 1363  gcc insertion.c 
+ 1364  ./a.out 
+ 1365  gcc insertion.c 
+ 1366  ./a.out 
+ 1367  gcc insertion.c 
+ 1368  ./a.out 
+ 1369  gcc insertion.c 
+ 1370  ./a.out 
+ 1371  gcc insertion.c 
+ 1372  ./a.out 
+ 1373  gcc insertion.c 
+ 1374  ./a.out 
+ 1375  gcc insertion.c 
+ 1376  ./a.out 
+ 1377  gcc insertion.c 
+ 1378  ./a.out 
+ 1379  gcc insertion.c 
+ 1380  ./a.out 
+ 1381  gcc insertion.c 
+ 1382  ./a.out 
+ 1383  gcc insertion.c 
+ 1384  ./a.out 
+ 1385  gcc insertion.c 
+ 1386  ./a.out 
+ 1387  gcc insertion.c 
+ 1388  ./a.out 
+ 1389  gcc insertion.c 
+ 1390  ./a.out 
+ 1391  gcc insertion.c 
+ 1392  ./a.out 
+ 1393  gcc insertion.c 
+ 1394  ./a.out 
+ 1395  gcc insertion.c 
+ 1396  ./a.out 
+ 1397  gcc insertion.c 
+ 1398  ./a.out 
+ 1399  gcc insertion.c 
+ 1400  ./a.out 
+ 1401  gcc insertion.c 
+ 1402  ./a.out 
+ 1403  gcc insertion.c 
+ 1404  ./a.out 
+ 1405  gcc insertion.c 
+ 1406  ./a.out 
+ 1407  gdb a.out 
+ 1408  ./a.out 
+ 1409  gdb a.out 
+ 1410  gcc insertion.c 
+ 1411  gdb a.out 
+ 1412  gcc insertion.c 
+ 1413  ./a.out 
+ 1414  gcc insertion.c 
+ 1415  ./a.out 
+ 1416  gcc insertion.c 
+ 1417  ./a.out 
+ 1418  gcc insertion.c 
+ 1419  ./a.out 
+ 1420  gcc insertion.c 
+ 1421  ./a.out 
+ 1422  gcc insertion.c 
+ 1423  ./a.out 
+ 1424  gcc insertion.c 
+ 1425  ./a.out 
+ 1426  gcc insertion.c 
+ 1427  ./a.out 
+ 1428  gcc insertion.c 
+ 1429  ./a.out 
+ 1430  gcc insertion.c 
+ 1431  ./a.out 
+ 1432  subl bst.c
+ 1433  gcc bst.c 
+ 1434  subl bst.c
+ 1435  gcc bst.c 
+ 1436  clear
+ 1437  gcc bst.c 
+ 1438  clear
+ 1439  gcc bst.c 
+ 1440  ./a.out 
+ 1441  gcc bst.c 
+ 1442  clear
+ 1443  gcc bst.c 
+ 1444  clear
+ 1445  gcc bst.c 
+ 1446  clear
+ 1447  gcc bst.c 
+ 1448  ./a.out 
+ 1449  gcc bst.c 
+ 1450  ./a.out 
+ 1451  gcc hashint.c 
+ 1452  ./a.out 
+ 1453  gcc hashint.c 
+ 1454  ./a.out 
+ 1455  gcc hashint.c 
+ 1456  ./a.out 
+ 1457  gcc hashchar.c 
+ 1458  ./a.out 
+ 1459  gcc hashchar.c 
+ 1460  ./a.out 
+ 1461  gcc hashchar.c 
+ 1462  ./a.out 
+ 1463  gcc hashchar.c 
+ 1464  ./a.out 
+ 1465  gcc hashchar.c 
+ 1466  ./a.out 
+ 1467  gcc bst.c 
+ 1468  ./a.out 
+ 1469  gcc bst.c 
+ 1470  ./a.out 
+ 1471  gcc bst.c 
+ 1472  ./a.out 
+ 1473  gcc bst.c 
+ 1474  ./a.out 
+ 1475  gcc bst.c 
+ 1476  ./a.out 
+ 1477  gcc bst.c 
+ 1478  ./a.out 
+ 1479  gcc bst.c 
+ 1480  ./a.out 
+ 1481  gdb a.out 
+ 1482  gcc bst.c 
+ 1483  ./a.out 
+ 1484  clear
+ 1485  gcc bst.c 
+ 1486  ./a.out 
+ 1487  gcc bst.c 
+ 1488  ./a.out 
+ 1489  gcc bst.c 
+ 1490  ./a.out 
+ 1491  gcc bst.c 
+ 1492  ./a.out 
+ 1493  gcc bst.c 
+ 1494  ./a.out 
+ 1495  gcc bst.c 
+ 1496  ./a.out 
+ 1497  git status
+ 1498  git add *
+ 1499  git commit -m "added final fastrack c exam question. Added C sorting Hashtable questions and bst solutions"
+ 1500  git push
+ 1501  exit
+ 1502  nmcli con add type ethernet ifname enxf8dc7a000001 ip4 192.168.0.1/24
+ 1503  ../
+ 1504  cd ../
+ 1505  cd/
+ 1506  cd /
+ 1507  ls
+ 1508  cd srv/
+ 1509  ls
+ 1510  cd tftp/
+ 1511  ls
+ 1512  echo vishubahubali | sudo tee vishu
+ 1513  ls
+ 1514  cat vishu 
+ 1515  sudo apt install -y putty
+ 1516  sudo apt install -y tftpd-hpa
+ 1517  ll
+ 1518  sudo adduser $USER dialout
+ 1519  newgrp dialout
+ 1520  ping www.google.com
+ 1521  subl main.cpp driver.h monitor.h function.h
+ 1522  ping www.google.com
+ 1523  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1524  ping www.google.com
+ 1525  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1526  ./sim 
+ 1527  gtkwave trace.vcd.vcd 
+ 1528  ./sim 
+ 1529  gtkwave trace.vcd.vcd 
+ 1530  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1531  ./sim 
+ 1532  git status
+ 1533  git add *
+ 1534  git commit -m "Added external DS question solution of dating site. Added new proggrams on System c i.e fifo fsm tff"
+ 1535  git push
+ 1536  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim assignment1.cpp -lsystemc
+ 1537  ./sim 
+ 1538  o01
+ 1539  ls -ld
+ 1540  ls
+ 1541  ls -l
+ 1542  chmod 777 test.txt 
+ 1543  ./sim 
+ 1544  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim assignment1.cpp -lsystemc
+ 1545  ./sim 
+ 1546  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1547  cpp
+ 1548  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1549  ./sim
+ 1550  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1551  ./sim
+ 1552  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1553  ./sim
+ 1554  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim design.cpp -lsystemc
+ 1555  ./sim
+ 1556  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1557  clear
+ 1558  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1559  ./sim
+ 1560  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1561  ./sim
+ 1562  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1563  ./sim
+ 1564  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1565  ./sim
+ 1566  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1567  ./sim
+ 1568  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1569  ./sim
+ 1570  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1571  ./sim
+ 1572  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1573  ./sim
+ 1574  g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -o sim main.cpp -lsystemc
+ 1575  ./sim
+ 1576  subl main.cpp monitor.h driver.h function.h
+ 1577  subl main.c op.c head.c
+ 1578  gcc main.c
+ 1579  ./a.out 
+ 1580  gcc main.c
+ 1581  ./a.out 
+ 1582  gcc main.c
+ 1583  ./a.out 
+ 1584  gcc main.c
+ 1585  ./a.out 
+ 1586  gcc main.c
+ 1587  ./a.out 
+ 1588  gcc main.c
+ 1589  ./a.out 
+ 1590  gcc main.c
+ 1591  ./a.out 
+ 1592  gcc main.c
+ 1593  ./a.out 
+ 1594  gcc main.c
+ 1595  ./a.out 
+ 1596  gcc main.c
+ 1597  ./a.out 
+ 1598  gcc main.c
+ 1599  ./a.out 
+ 1600  gcc main.c
+ 1601  ./a.out 
+ 1602  gcc main.c
+ 1603  ./a.out 
+ 1604  gcc main.c
+ 1605  ./a.out 
+ 1606  gcc main.c
+ 1607  ./a.out 
+ 1608  gcc main.c
+ 1609  ./a.out 
+ 1610  gcc main.c
+ 1611  ./a.out 
+ 1612  gcc main.c
+ 1613  ./a.out 
+ 1614  gcc main.c
+ 1615  ./a.out 
+ 1616  gcc main.c
+ 1617  ./a.out 
+ 1618  gcc main.c
+ 1619  ./a.out 
+ 1620  gcc main.c
+ 1621  ./a.out 
+ 1622  gcc main.c
+ 1623  ./a.out 
+ 1624  gcc main.c
+ 1625  ./a.out 
+ 1626  gcc main.c
+ 1627  ./a.out 
+ 1628  gcc main.c
+ 1629  ./a.out 
+ 1630  gcc main.c
+ 1631  ./a.out 
+ 1632  gcc main.c
+ 1633  ./a.out 
+ 1634  gcc main.c
+ 1635  ./a.out 
+ 1636  gcc main.c
+ 1637  ./a.out 
+ 1638  gcc main.c
+ 1639  ./a.out 
+ 1640  gcc main.c
+ 1641  ./a.out 
+ 1642  gcc main.c
+ 1643  ./a.out 
+ 1644  which perl
+ 1645  subl test.pl
+ 1646  perl test.pl 
+ 1647  clear
+ 1648  perl test.pl 
+ 1649  clear
+ 1650  perl test.pl 
+ 1651  python3
+ 1652  clear
+ 1653  python3 --help
+ 1654  pydoc for
+ 1655  python3
+ 1656  pydoc for
+ 1657  clear
+ 1658  cd ../
+ 1659  mkdir Python
+ 1660  cd Python/
+ 1661  subl pgm1.py
+ 1662  python3 pgm1.py 
+ 1663  git status
+ 1664  git add *
+ 1665  git commit -m "Complete Folder Structure Rearranged, Updated Readme.md files as per to the codes,Added Second semister folder with perl and python scrips, Verification of sem 2 project is desiging file untill driver is updated in this commit"
+ 1666  git push
+ 1667  git pull
+ 1668  git status
+ 1669  git add *
+ 1670  git commit -m "Deleting reduntant files"
+ 1671  git add .
+ 1672  git status
+ 1673  git commit -m "Removing reduntant Files"
+ 1674  git push
+ 1675  git status
+ 1676  git add *
+ 1677  git status
+ 1678  git commit -m "Adding Sample directory standard"
+ 1679  git push
+ 1680  git status
+ 1681  git add *
+ 1682  git commit -m "Updated main Readme file"
+ 1683  git push
+ 1684  git status
+ 1685  git add *
+ 1686  git commit -m "Updated main Readme file"
+ 1687  git push
+ 1688  git add *
+ 1689  git commit -m "Updated main Readme file"
+ 1690  git push
+ 1691  git add *
+ 1692  git commit -m "Updated all Readme file"
+ 1693  git push
+ 1694  git add *
+ 1695  git commit -m "Updated all Readme file"
+ 1696  git push
+ 1697  git add *
+ 1698  git commit -m "Updated  Readme file"
+ 1699  git push
+ 1700  git add *
+ 1701  git commit -m "Updated  Readme file"
+ 1702  git push
+ 1703  exit
+ 1704  git status
+ 1705  git add *
+ 1706  git status
+ 1707  git commit -m "Updating design and Verification file of 2nd semister mini project"
+ 1708  git push
+ 1709  exit
+ 1710  git status
+ 1711  git add *
+ 1712  git status
+ 1713  git -commit -m "updated design files with decrypt"
+ 1714  git commit -m "updated design files with decrypt"
+ 1715  git push
+ 1716  exit
+ 1717  script -flush
+ 1718  script --flush
+ 1719  open script
+ 1720  ls
+ 1721  cat typescript 
+ 1722  file typescript 
+ 1723  subl typescript 
+ 1724  cat typescript 
+ 1725  clear
+ 1726  exit
+ 1727  man script
+ 1728  script --f
+ 1729  script -f
+ 1730  exit
+ 1731  which shell
+ 1732  which bash
+ 1733  which shell
+ 1734  script
+ 1735  exit
+ 1736  pwd
+ 1737  ls
+ 1738  exit
+ 1739  gedit typescript 
+ 1740  meow
+ 1741  gedit typescript 
+ 1742  script -flush
+ 1743  script -f
+ 1744  exit
+ 1745  script
+ 1746  cat typescript 
+ 1747  subl typescript 
+ 1748  gedit typescript 
+ 1749  file typescript 
+ 1750  gedit typescript 
+ 1751  clear
+ 1752  rm typescript 
+ 1753  clear
+ 1754  eefwedf
+ 1755  clear
+ 1756  exit
+ 1757  echo 
+ 1758  echo $sh
+ 1759  echo $SH
+ 1760  echo $SHELL
+ 1761  which shell
+ 1762  which terminal
+ 1763  echo $TERM
+ 1764  man -t
+ 1765  man -x
+ 1766  env
+ 1767  set
+ 1768  printenv
+ 1769  echo $HIST_FILE
+ 1770  echo $HISTFILE
+ 1771  history
+ 1772  exit
+ 1773  cd
+ 1774  ls
+ 1775  pwd
+ 1776  ls /home
+ 1777  ls home
+ 1778  ls /home
+ 1779  ls /home/
+ 1780  ls /home/ -d
+ 1781  ls /home/ -ld
+ 1782  ls /home/ -l
+ 1783  clear
+ 1784  ls
+ 1785  clear
+ 1786  history 
+ 1787  bc
+ 1788  man bc
+ 1789  bc
+ 1790  exa
+ 1791  echo
+ 1792  echo *
+ 1793  lsattr
+ 1794  printf '%s\n' *
+ 1795  printf '%s\n' .* *
+ 1796  printf '%s\n' .* 
+ 1797  printf '%s\n' .* *
+ 1798  echo .*
+ 1799  echo .* *
+ 1800  find
+ 1801  cd ../..
+ 1802  find
+ 1803  ls
+ 1804  cd 'Semister Two'/
+ 1805  cd ../Semister\ One/
+ 1806  ls
+ 1807  cd ../Semister\ Two/
+ 1808  cd ls
+ 1809  ls
+ 1810  cd Perl/
+ 1811  ls
+ 1812  fing
+ 1813  find
+ 1814  bc
+ 1815  alias
+ 1816  man alias
+ 1817  man bah
+ 1818  type alias
+ 1819  man bash
+ 1820  man bash > man
+ 1821  gedit man
+ 1822  subl man
+ 1823  clear
+ 1824  alias c='clear'
+ 1825  c
+ 1826  type c
+ 1827  type clear
+ 1828  alias
+ 1829  c
+ 1830  alias
+ 1831  exit
+ 1832  touch test
+ 1833  ls
+ 1834  man touch
+ 1835  ls -l
+ 1836  touch test.pl 
+ 1837  ls -l
+ 1838  type exit
+ 1839  type cd
+ 1840  type ls
+ 1841  type country
+ 1842  clear
+ 1843  who am i
+ 1844  who ami
+ 1845  whoami
+ 1846  date'
+ 1847  date
+ 1848  man date
+ 1849  cal
+ 1850  cal - y
+ 1851  cal -y
+ 1852  date -t
+ 1853  man date
+ 1854  date -t "now"
+ 1855  man date
+ 1856  date -t 'now'
+ 1857  man date
+ 1858  man date
+ 1859  date +%a
+ 1860  date +hhmmss
+ 1861  date +%hhmmss
+ 1862  date +%hh:mm:ss
+ 1863  date +%h:%mm:%ss
+ 1864  date +%h:%m:%s
+ 1865  date +%H:%M:%S
+ 1866  date +%HH:%M:%S
+ 1867  date +%H:%M:%S
+ 1868  man date
+ 1869  date  [MMDDhhmm[[CC]YY][.ss]]
+ 1870  date -u  [MMDDhhmm[[CC]YY][.ss]]
+ 1871  man date 
+ 1872  date MMDDhh
+ 1873  date MMDDhhmm
+ 1874  man date 
+ 1875  date MMDDhhmm
+ 1876  date -MMDDhhmm
+ 1877  date -u
+ 1878  date -u -MMDDhhmm
+ 1879  date -u MMDDhhmm
+ 1880  claer
+ 1881  clear
+ 1882  history 
+ 1883  man history 
+ 1884  newgrp dialout
+ 1885  exit
+ 1886  alias
+ 1887  c
+ 1888  l
+ 1889  la
+ 1890  ll
+ 1891  grep
+ 1892  clear
+ 1893  ls -a
+ 1894  echo .*
+ 1895  echo /home/.*
+ 1896  echo /home/shree/.*
+ 1897  print /home/shree/.*
+ 1898  printf "%s\n" /home/shree/.*
+ 1899  printf "%s\t" /home/shree/.*
+ 1900  printf "%s\n" /home/shree/.*
+ 1901  ls -i
+ 1902  ls -li
+ 1903  uname -r
+ 1904  uname -a
+ 1905  man cp
+ 1906  man gcc |tail -20 
+ 1907  man gcc |tail -30
+ 1908  man bash |tail -30
+ 1909  man gcc >gcc
+ 1910  lsb_release 
+ 1911  lsb_release -r
+ 1912  lsb_release -a
+ 1913  uname -a
+ 1914  cat /etc/passwd
+ 1915  cat /proc/cpuinfo 
+ 1916  lscpu
+ 1917  ls /proc/cpuinfo -l
+ 1918  ls /proc/cpuinfo -lh
+ 1919  ls -lh
+ 1920  free
+ 1921  free -h
+ 1922  lsmem
+ 1923  lsblk
+ 1924  which bash
+ 1925  whatis bash
+ 1926  which perl
+ 1927  whatis perl
+ 1928  which py
+ 1929  which python
+ 1930  which python3
+ 1931  whatis python3
+ 1932  df
+ 1933  du
+ 1934  free'
+ 1935  free
+ 1936  du -sfc
+ 1937  du -shc
+ 1938  df -shc
+ 1939  df -hc
+ 1940  df -h
+ 1941  df -t
+ 1942  df -T
+ 1943  man df
+ 1944  tar
+ 1945  type tar
+ 1946  man tar
+ 1947  whatis tar
+ 1948  ll /usr/bin/tar
+ 1949  echo $PATH
+ 1950  man tar
+ 1951  ls
+ 1952  tar -A gcc
+ 1953  tar -A gcc man 
+ 1954  man tar
+ 1955  tar -cf out.tar -v gcc
+ 1956  tar -A out.tar -v man
+ 1957  tar -Af out.tar -v man
+ 1958  man tar
+ 1959  tar --append -f  out.tar -v man
+ 1960  man tar
+ 1961  tar -cf out.tar -v man
+ 1962  tar -cf out.tar -v gcc
+ 1963  man tar
+ 1964  tar --append -f  out.tar  man
+ 1965  man tar
+ 1966  tar -xf out.tar 
+ 1967  rm out.tar 
+ 1968  clear
+ 1969  tar -cfj out.tar gcc man
+ 1970  tar -cf out.tar gcc man
+ 1971  man tar
+ 1972  tar -j out.tar
+ 1973  ls
+ 1974  ls -ld
+ 1975  tar -j -f out.tar 
+ 1976  tar -cj -f out.tar 
+ 1977  tar -j -cf out.zip
+ 1978  tar -j -cf out.zip out.tar
+ 1979  tar -cj -f out.zip out.tar
+ 1980  tar -cj -f out.gz out.tar
+ 1981  tar -cvj -f out.gz out.tar
+ 1982  tar -cvzf out.gz outar
+ 1983  tar -cvzf out.gz man gcc
+ 1984  tar -cvzf out.gz man 
+ 1985  tar -cvzf out.tar.gz man 
+ 1986  tar -cvzf out.tar.gz man gcc
+ 1987  tar -cf out.tar man gcc
+ 1988  tar -czf out.tar.gz out.tar 
+ 1989  ls
+ 1990  rm *.tar *.gz
+ 1991  ls
+ 1992  l
+ 1993  tar -cvz gcc man
+ 1994  tar -czvf s.tar.gz gcc man
+ 1995  l
+ 1996  tar -xzvf s.tar.gz 
+ 1997  ls
+ 1998  exit
+ 1999  echo $SHELL
+ 2000  env
+ 2001  pwd
+ 2002  cd /
+ 2003  ls /home
+ 2004  cd /home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl
+ 2005  cd /home/shree/cprojects/JnaneshGit/Manipal_codeRepo/Semister\ Two/Perl
+ 2006  mkdir Shree
+ 2007  cd Shree/
+ 2008  vi file1
+ 2009  vi file2
+ 2010  touch touchfile
+ 2011  ls
+ 2012  ls -ld
+ 2013  ls -l
+ 2014  touch file1
+ 2015  ls -l
+ 2016  touch file1
+ 2017  ls -l
+ 2018  clear
+ 2019  whoami
+ 2020  date
+ 2021  date +%H:%M:%S
+ 2022  cal
+ 2023  cal -y
+ 2024  history
+ 2025  date
+ 2026  bc
+ 2027  print "%s\n" .* *
+ 2028  print "%s\n" *
+ 2029  printf "%s\n" *
+ 2030  printf "%s\n" * .*
+ 2031  echo .* *
+ 2032  alias c=clear
+ 2033  c
+ 2034  history 
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ echo /home/.*
+/home/. /home/..
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ uname -ah
+uname: invalid option -- 'h'
+Try 'uname --help' for more information.
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ uname -ah[K
+Linux shree 5.8.0-44-generic #50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls -u[Ki
+399406 file1  399405 file2  393327 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls -ili
+total 8
+399406 -rw-rw-r-- 1 shree shree 5 Mar 15 10:53 file1
+399405 -rw-rw-r-- 1 shree shree 7 Mar 15 10:30 file2
+393327 -rw-rw-r-- 1 shree shree 0 Mar 15 10:30 touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ unam [K=e[K[Ke [K[K[K[K[K[Klsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ lsb_release -ah
+Usage: lsb_release [options]
+
+Options:
+  -h, --help         show this help message and exit
+  -v, --version      show LSB modules this system supports
+  -i, --id           show distributor ID
+  -d, --description  show description of this distribution
+  -r, --release      show release number of this distribution
+  -c, --codename     show code name of this distribution
+  -a, --all          show all of the above information
+  -s, --short        show requested information in short format
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ lsb_release -ah h-h
+Usage: lsb_release [options]
+
+Options:
+  -h, --help         show this help message and exit
+  -v, --version      show LSB modules this system supports
+  -i, --id           show distributor ID
+  -d, --description  show description of this distribution
+  -r, --release      show release number of this distribution
+  -c, --codename     show code name of this distribution
+  -a, --all          show all of the above information
+  -s, --short        show requested information in short format
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ lsb_release -a -h[K[K
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:114::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:115::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:109:116:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+rtkit:x:111:117:RealtimeKit,,,:/proc:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+cups-pk-helper:x:113:120:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+avahi:x:115:121:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:117:123::/var/lib/saned:/usr/sbin/nologin
+nm-openvpn:x:118:124:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+hplip:x:119:7:HPLIP system user,,,:/run/hplip:/bin/false
+whoopsie:x:120:125::/nonexistent:/bin/false
+colord:x:121:126:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:122:127::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:123:128:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
+shree:x:1000:1000:Shree Jnanesh,,,:/home/shree:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+vboxadd:x:998:1::/var/run/vboxadd:/bin/false
+tftp:x:126:133:tftp daemon,,,:/srv/tftp:/usr/sbin/nologin
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ lscpu
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   48 bits physical, 48 bits virtual
+CPU(s):                          3
+On-line CPU(s) list:             0-2
+Thread(s) per core:              1
+Core(s) per socket:              3
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       AuthenticAMD
+CPU family:                      23
+Model:                           96
+Model name:                      AMD Ryzen 5 4600H with Radeon Graphics
+Stepping:                        1
+CPU MHz:                         2994.372
+BogoMIPS:                        5988.74
+Hypervisor vendor:               KVM
+Virtualization type:             full
+L1d cache:                       96 KiB
+L1i cache:                       96 KiB
+L2 cache:                        1.5 MiB
+L3 cache:                        8 MiB
+NUMA node0 CPU(s):               0-2
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full AMD retpoline, STIBP disabled, RSB filling
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxex
+                                 t fxsr_opt rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 cx16
+                                  sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignss
+                                 e 3dnowprefetch ssbd vmmcall fsgsbase avx2 rdseed clflushopt arat
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ lsmem
+RANGE                                 SIZE  STATE REMOVABLE BLOCK
+0x0000000000000000-0x000000007fffffff   2G online       yes  0-15
+
+Memory block size:       128M
+Total online memory:       2G
+Total offline memory:      0B
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ whuch[K[K[K[Khat is perl
+
+Command 'what' not found, did you mean:
+
+  command 'phat' from deb phat-utils (1.5-3build2)
+  command 'wham' from deb wham-align (0.1.5-2build1)
+  command 'jhat' from deb openjdk-8-jdk-headless (8u282-b08-0ubuntu1~20.04)
+  command 'wcat' from deb sac (1.9b5-3build1)
+  command 'chat' from deb ppp (2.4.7-2+4.1ubuntu5.1)
+
+Try: sudo apt install <deb name>
+
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ what is perl[1P
+perl (1)             - The Perl 5 language interpreter
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ which perl
+/usr/bin/perl
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ df
+Filesystem                                     1K-blocks      Used Available Use% Mounted on
+udev                                              988124         0    988124   0% /dev
+tmpfs                                             203460      1420    202040   1% /run
+/dev/sda5                                       30313412  11830684  16919848  42% /
+tmpfs                                            1017288         0   1017288   0% /dev/shm
+tmpfs                                               5120         4      5116   1% /run/lock
+tmpfs                                            1017288         0   1017288   0% /sys/fs/cgroup
+/dev/loop3                                         63232     63232         0 100% /snap/core20/904
+/dev/loop2                                         63104     63104         0 100% /snap/core20/875
+/dev/loop4                                        166784    166784         0 100% /snap/gnome-3-28-1804/145
+/dev/loop0                                        100736    100736         0 100% /snap/core/10823
+/dev/loop1                                         56832     56832         0 100% /snap/core18/1944
+/dev/loop5                                        223232    223232         0 100% /snap/gnome-3-34-1804/60
+/dev/loop7                                         65920     65920         0 100% /snap/gtk-common-themes/1513
+/dev/loop8                                         56832     56832         0 100% /snap/core18/1988
+/dev/loop6                                        101632    101632         0 100% /snap/core/10859
+/dev/loop9                                        224256    224256         0 100% /snap/gnome-3-34-1804/66
+/dev/loop11                                        52352     52352         0 100% /snap/snap-store/498
+/dev/loop10                                        52352     52352         0 100% /snap/snap-store/518
+/dev/loop12                                        33152     33152         0 100% /snap/snapd/11107
+/dev/loop13                                        31872     31872         0 100% /snap/snapd/11036
+/dev/loop14                                        66432     66432         0 100% /snap/gtk-common-themes/1514
+/dev/loop15                                        58624     58624         0 100% /snap/sublime-text/97
+/dev/loop16                                        69248     69248         0 100% /snap/sublime-text/85
+/dev/sda1                                         523248         4    523244   1% /boot/efi
+OneDrive_-_Manipal_Academy_of_Higher_Education 499300348 241402696 257897652  49% /media/sf_OneDrive_-_Manipal_Academy_of_Higher_Education
+SharedFolderVms                                499300348 241402696 257897652  49% /media/sf_SharedFolderVms
+tmpfs                                             203456        36    203420   1% /run/user/1000
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ du
+12	.
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ free
+              total        used        free      shared  buff/cache   available
+Mem:        2034576      978464       90440       47444      965672      844976
+Swap:       1435264       15440     1419824
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ mkdir -p parent [K/child
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ tar -cf ta[K[Knew.tar [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+file1  file2  [0m[01;34mparent[0m  touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cr[K[Kr[Ktar -cf new.tar touchfile file1
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls
+file1  file2  [0m[01;31mnew.tar[0m  [01;34mparent[0m  touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ rm new,[K.tar 
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cp file1 /pa[K[K[Kparent/
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls
+file1  file2  [0m[01;34mparent[0m  touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cd pp[Karent/
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[00m$ ls
+[0m[01;34mchild[0m  file1
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[00m$ ,,[K[Kcd ..
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ mv g[Kfile1 /[Kparent/
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ ls
+file2  [0m[01;34mparent[0m  touchfile
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree[00m$ cd parent/
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[00m$ ls
+[0m[01;34mchild[0m  file1
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/Semister Two/Perl/Shree/parent[00m$ exit
+exit
+
+Script done on 2021-03-15 11:27:50+05:30 [COMMAND_EXIT_CODE="0"]

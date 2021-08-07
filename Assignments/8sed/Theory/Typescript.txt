@@ -1,0 +1,35 @@
+Script started on 2021-05-24 18:36:15+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="163" LINES="36"]
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ sed 's/\bdf\b/meow/g' random
+lmdmfgvkaknglsdjkf
+sdfgasdfg
+asd
+fgas
+meow
+asdf
+asdf0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ $?
+0: command not found
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ $Kseds's/df/meow'wrandomndom
+sed: -e expression #1, char 9: unterminated `s' command
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ $?K 's/df/meow' random
+1: command not found
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ chmod -r random
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ sed 's/df/meow/g' random
+sed: can't read random: Permission denied
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ 9P$?Kodd-rCCCCCCCCrandom
+2: command not found
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ 9Pchmodd1P1@+CCCCCrandom
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ sed -f 's/df/meow/gi;dp' random
+sed: couldn't open file s/df/meow/gi;dp: No such file or directory
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ 15P$?Kods+rfrandomgi;dp' random
+4: command not found
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ sed 's/\bdf\b/meow/g;q100' random
+lmdmfgvkaknglsdjkf
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ $?K 's/\bdf\b/meow/g;q100' random
+100: command not found
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ sed 's/\bdf\b/meow/g;1P1@Q random
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ $?K 's/\bdf\b/meow/g;Q100' random
+100: command not found
+0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/801;32mshree@shree00m:01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/800m$ exit
+exit
+
+Script done on 2021-05-24 18:38:26+05:30 [COMMAND_EXIT_CODE="127"]

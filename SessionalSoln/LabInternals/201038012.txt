@@ -1,0 +1,10 @@
+Name Instance-number Area-per-instance Power-per-instance
+ALu-Adder 32 945 0.0333RAM-Small 8 2239 0.0543ALU-Multiplier 16 6347 0.2235Data-pipe 1 8345 0.2344Control 1 10123 1.3423RAM-Large 2 10943 1.9312Processor 2 24231 1.0211
+
+The total number of instances : 62
+Total area of all the instances : 63173
+Total area of RAM  : 13182
+Average area of the instances : 3847.09677419355
+smallest instance based on area :945
+Instance which uses more power : 1.9312
+The difference between highest and lower Power-Per-instance : 1.8979

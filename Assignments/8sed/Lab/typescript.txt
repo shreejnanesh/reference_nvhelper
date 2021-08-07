@@ -1,0 +1,1151 @@
+Script started on 2021-05-26 17:03:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="54"]
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/8/Lab[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/8/Lab[00m$ exit./solution.txt 
++ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n 4p netlist.v
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n 1,10p netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n 3~2p netlist.v
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '1,2p;5,10p' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '$p' netlist.v
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '10,$p' netlist.v
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n -r '/^(.* \\r)/p' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n 10,/DFFXL/p netlist.v
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n /DFFXL/,/SDFFQXL/p netlist.v
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -nr '/\(.*.D \(n_22\).*\)/,+3p' netlist.v
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -nr '/\(.*.D\ \(n_22\).*\)/!p' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -nr '/\(.*.D \(n_22\).*\)/,+3!p' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed s/DFFXL/flopmodule/g netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ flopmodule \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+flopmodule \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed s/DFFXL/flopmodule/gi netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ flopmodule \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+flopmodule \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+flopmodule \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed 's/DFFXL/flopmodule/gw out.v' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ flopmodule \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+flopmodule \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n s/DFFXL/flopmodule/gp netlist.v
+ flopmodule \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+flopmodule \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -nr 's/^ {0,}DFFXL/flopmodule/gmp' netlist.v
+flopmodule \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+flopmodule \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed 's/DFFXL/\uflop\Umo\ld\Lul\ue/wg' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ FlopMOdulE \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+FlopMOdulE \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed s/result/res/2 netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (res[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (res[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (res[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (res[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (res[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (res[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (res[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (res[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed 's/\(result\)_reg/\1/g' netlist.v
+DFFQX1 \result[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '1 a Contents of Netlist Files' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+Contents of Netlist Files
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '/DFFXL/a this is a qual pin dff' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+this is a qual pin dff
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+this is a qual pin dff
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '$a End of netlist file' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));
+End of netlist file
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '1 i Contents of Netlist Files' netlist.v
+Contents of Netlist Files
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '/DFFXL/i this is a qual pin dff' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+this is a qual pin dff
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+this is a qual pin dff
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '$i End of netlist file' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+End of netlist file
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '1 c Contents of Netlist Files' netlist.v
+Contents of Netlist Files
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '/DFFXL/c this is a qual pin dff' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+this is a qual pin dff
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+this is a qual pin dff
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '$c End of netlist file' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+End of netlist file
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '{/DFFXL/p; 5p; 20p}' netlist.v
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ seq 3
++ sed '# this is a comment ; 2d'
+1
+2
+3
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ seq 3
++ sed '# this is a comment
+		2d'
+1
+3
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -r y/ABCD/abcd/ netlist.
+sed: can't read netlist.: No such file or directory
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '1w out.txt' netlist.v
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n -e '1w out.txt' -e '$w out.txt' netlist.v
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '/DFFXL/w out.txt' netlist.v
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '/DFFXL/,+2w out.txt' netlist.v
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '{n;/result/ {s/result/res/g}}' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \res_reg[1] (.CK (clk), .D (n_38), .Q (res[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \res_reg[3] (.CK (clk), .D (n_31), .Q (res[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \res_reg[5] (.CK (clk), .D (n_33), .Q (res[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \res_reg[7] (.CK (clk), .D (n_28), .Q (res[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '/DFFXL/{p;n;p;}' netlist.v
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ seq 5
++ sed '/2/{h;d};/4/x'
+1
+3
+2
+5
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed G netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+
+  (result[4]), .SE (n_323), .Q (digital_out[4]));
+
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n '1!G;h;$p' netlist.v
+  (result[4]), .SE (n_323), .Q (digital_out[4]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n -e '/^$/{x;d}' -e '/./x;p' netlist.v
+
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed 's/\bDFFXL\b/register/g;3q100' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed 's/\bDFFXL\b/register/g;3Q120' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -nr '/\(.*.D \(n_22\).*\)/,+3=' netlist.v
+12
+13
+14
+15
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -nr '/\(.*.D \(n_22\).*\)/,+3{
+		 =
+		 p
+		 }' netlist.v
+12
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+13
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+14
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+15
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed '$=' netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+35
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -e 4d -e 2d netlist.v
+DFFQX1 \result_reg[2] (.CK (clk), .D (n_30), .Q (result[2]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+  (result[4]), .SE (n_323), .Q (digital_out[4]));+ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -n -e /DFFXL/p -e /DFFQX3/p netlist.v
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
++ echo -----------------------------------------------------
+-----------------------------------------------------
++ sed -e 1d -e '$d' -e '/^$/d' netlist.v
+DFFQX1 \result_reg[1] (.CK (clk), .D (n_38), .Q (result[1]));
+DFFQX1 \result_reg[6] (.CK (clk), .D (n_36), .Q (result[6]));
+DFFQX2 \result_reg[3] (.CK (clk), .D (n_31), .Q (result[3]));
+DFFQX1 \result_reg[0] (.CK (clk), .D (n_29), .Q (result[0]));
+DFFQX1 \result_reg[5] (.CK (clk), .D (n_33), .Q (result[5]));
+DFFQX1 \result_reg[4] (.CK (clk), .D (n_32), .Q (result[4]));
+DFFQX2 \result_reg[7] (.CK (clk), .D (n_28), .Q (result[7]));
+DFFQX1 \temp_reg[4] (.CK (clk), .D (n_23), .Q (temp[4]));
+DFFQX1 \temp_reg[3] (.CK (clk), .D (n_27), .Q (temp[3]));
+DFFQX1 \temp_reg[2] (.CK (clk), .D (n_21), .Q (temp[2]));
+DFFQX3 \temp_reg[5] (.CK (clk), .D (n_22), .Q (temp[5]));
+DFFQX1 \temp_reg[1] (.CK (clk), .D (n_18), .Q (temp[1]));
+DFFQX1 \temp_reg[0] (.CK (clk), .D (n_19), .Q (temp[0]));
+DFFQX3 \temp_reg[6] (.CK (clk), .D (n_26), .Q (temp[6]));
+DFFQX1 \temp_reg[7] (.CK (clk), .D (n_20), .Q (temp[7]));
+ DFFXL \temp_reg[3] (.CK (clk), .D (n_66), .Q (temp[3]), .QN (n_51));
+DFFXl \temp_reg[5] (.CK (clk), .D (n_69), .Q (temp[5]), .QN (n_63));
+DFFXL \temp_reg[6] (.CK (clk), .D (n_213), .Q (temp[6]), .QN (n_54));
+SDFFQXL \digital_out_reg[0] (.CK (clk), .D (digital_out[0]), .SI
+       (result[0]), .SE (n_323), .Q (digital_out[0]));
+SDFFQXL \digital_out_reg[6] (.CK (clk), .D (digital_out[6]), .SI
+       (result[6]), .SE (n_323), .Q (digital_out[6]));
+SDFFQXL \digital_out_reg[7] (.CK (clk), .D (digital_out[7]), .SI
+     (result[7]), .SE (n_323), .Q (digital_out[7]));
+SDFFQXL \digital_out_reg[1] (.CK (clk), .D (digital_out[1]), .SI
+       (result[1]), .SE (n_323), .Q (digital_out[1]));
+SDFFQXL \digital_out_reg[3] (.CK (clk), .D (digital_out[3]), .SI
+       (result[3]), .SE (n_323), .Q (digital_out[3]));
+SDFFQXL \digital_out_reg[2] (.CK (clk), .D (digital_out[2]), .SI
+       (result[2]), .SE (n_323), .Q (digital_out[2]));
+SDFFQXL \digital_out_reg[5] (.CK (clk), .D (digital_out[5]), .SI
+       (result[5]), .SE (n_323), .Q (digital_out[5]));
+SDFFQXL \digital_out_reg[4] (.CK (clk), .D (digital_out[4]), .SI
+]0;shree@shree: ~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/8/Lab[01;32mshree@shree[00m:[01;34m~/cprojects/JnaneshGit/Manipal_codeRepo/SemisterTwo/Scripting/Assignments/8/Lab[00m$ exit
+exit
+
+Script done on 2021-05-26 17:04:12+05:30 [COMMAND_EXIT_CODE="0"]

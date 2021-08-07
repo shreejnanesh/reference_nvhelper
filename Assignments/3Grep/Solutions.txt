@@ -1,0 +1,43 @@
+1. Print all lines that contain CA in either uppercase or lowercase.
+	grep -i 'CA' filename
+
+
+2. Print all lines that contain an email address (they have an @ in them), preceded by the line number.
+	grep -P '\s?[a-zA-z]*\@[a-zA-Z]*\.com\s?' filename
+
+
+3. Print all lines that do not contain the word Sep. (including the period).
+	grep -E -v '(sep).*' filename
+
+4. Print all lines that contain the word de as a whole word.
+	grep -w 'de' filename
+
+5. Print all lines that contain a phone number with an extension (the letter x or X followed by four digits).
+	considering phonenumber is of format 02546x5642
+	grep -P '\d{5,6}[xX]\d{4}' filename
+
+	considering phonenumber is of pattern +91x9854632190
+	grep -P '\+\d{2,3}[xX]\d{10}' filename
+
+	considering phonenumber is of pattern +91 9854632190
+	grep -P '\+\d{2,3}\s\d{10}' filename
+
+6. Print all lines that begin with three digits followed by a blank. Your answer must use the \{ and \} repetition specifier.
+	considering pattern is like 123 .
+	grep -P '\d{3}\s' filename
+
+	considering pattern is like {123 }.
+	grep -P '\{\d{3}\s\}' filename
+
+7. Print all lines that contain a date. Hint: this is a very simple pattern. It does not have to work for any year before 2000.
+	considering pattern is like DD:MM:YYYY or DD-MM-YYYY or DD/MM/YYYY.
+	grep -P '[0-3]\d[:\-\/][01]\d[:\-\/]\d{4}' filename
+
+8. Print all lines containing a vowel (a, e, i, o, or u) followed by a single character followed by the same vowel again. Thus, it will find “eve” or “adam” but not “vera”. Hint: \( and \)
+	egrep  '\b([aeiou].[aeiou])' filename
+
+9. Print all lines that do not begin with a capital S.
+	grep -v '^S.*' filename
+
+10. Print all the lines that have “hexadecimal number” followed by the word hexa
+	grep -P '[\dA-Ea-e]{0,}\s?(HEXA|hexa)' filename

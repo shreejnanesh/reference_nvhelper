@@ -1,0 +1,45 @@
+1. Write a sed script / one liners using the commands and various options
+
+a. Using specific address and range of address
+
+b. Using specific pattern and range of patterns
+
+c. Invert matches (!)
+
+d. Substitution command with various flags (s)
+
+e. Append (a)
+
+f. Insert(i)
+
+g. Change (c
+
+h. Grouping ({})
+
+i. Comment (#)
+
+j. Translate (y)
+
+k. Write(w)
+
+l. Translate(y)
+
+m. Next(n,N)
+
+n. Hold (h,H)
+
+o. Get(g,G)
+
+p. Exchange(x)
+
+q. Quit (qQ)
+
+r. (=)
+
+s. Execute(e)
+
+BONUS MARK: ( 5 Marks)
+
+1. Use of regular expression
+
+2. Writing meaningful sed script/s including all the sed commands and various options and flags (with proper documentation) to retrieve, format, filter the file ( use Gate level netlist file, Verilog file…. as per your choice)
